@@ -1,0 +1,223 @@
+[
+  {
+    "question": "Which of the following is the PRIMARY purpose of implementing a Security Information and Event Management (SIEM) solution?",
+    "options": {
+      "A": "To block all unauthorized traffic",
+      "B": "To monitor, correlate, and alert on security events",
+      "C": "To patch vulnerabilities automatically",
+      "D": "To perform vulnerability assessments"
+    },
+    "correct": "B",
+    "explanation": "SIEM solutions are primarily used for collecting, correlating, and analyzing security events across the enterprise to detect suspicious activity in real-time."
+  },
+  {
+    "question": "Which phase of the incident response process involves identifying and documenting lessons learned?",
+    "options": {
+      "A": "Containment",
+      "B": "Recovery",
+      "C": "Eradication",
+      "D": "Post-incident activity"
+    },
+    "correct": "D",
+    "explanation": "Post-incident activity focuses on reviewing the incident to identify lessons learned and improve future response capabilities."
+  },
+  {
+    "question": "What is the PRIMARY objective of Business Continuity Planning (BCP)?",
+    "options": {
+      "A": "Protect intellectual property",
+      "B": "Minimize data breach risk",
+      "C": "Ensure the continuity of critical business operations",
+      "D": "Achieve compliance with security standards"
+    },
+    "correct": "C",
+    "explanation": "BCP focuses on maintaining essential functions during and after a disaster or disruption."
+  },
+  {
+    "question": "Which of the following metrics is used to define the maximum tolerable amount of data loss during a disaster?",
+    "options": {
+      "A": "RTO",
+      "B": "MTTR",
+      "C": "RPO",
+      "D": "MTBF"
+    },
+    "correct": "C",
+    "explanation": "RPO (Recovery Point Objective) defines the acceptable amount of data loss measured in time before the disruption occurred."
+  },
+  {
+    "question": "Which of the following best describes 'chain of custody'?",
+    "options": {
+      "A": "A process for documenting evidence handling",
+      "B": "A list of backup procedures",
+      "C": "A policy for employee termination",
+      "D": "A set of legal documents for SLAs"
+    },
+    "correct": "A",
+    "explanation": "Chain of custody ensures the integrity of evidence by tracking its possession, handling, and storage throughout its lifecycle."
+  },
+  {
+    "question": "Which of the following is MOST effective in detecting insider threats?",
+    "options": {
+      "A": "Firewall logs",
+      "B": "Security awareness training",
+      "C": "User behavior analytics (UBA)",
+      "D": "Antivirus alerts"
+    },
+    "correct": "C",
+    "explanation": "User Behavior Analytics (UBA) helps identify anomalies in user behavior, which is particularly useful in detecting insider threats."
+  },
+  {
+    "question": "A company uses data classification labels. What should be the FIRST step before disposing of a high classification storage device?",
+    "options": {
+      "A": "Format the device",
+      "B": "Reclassify the data",
+      "C": "Degauss or physically destroy the media",
+      "D": "Move data to the cloud"
+    },
+    "correct": "C",
+    "explanation": "Sensitive data storage devices should be degaussed or physically destroyed to ensure data cannot be recovered."
+  },
+  {
+    "question": "What is the PRIMARY benefit of implementing change management procedures in IT operations?",
+    "options": {
+      "A": "To increase system uptime",
+      "B": "To document new employee access",
+      "C": "To track employee performance",
+      "D": "To minimize unplanned outages"
+    },
+    "correct": "D",
+    "explanation": "Change management ensures that changes are evaluated and approved to reduce the risk of disruption."
+  },
+  {
+    "question": "Which of the following BEST describes the purpose of job rotation in security operations?",
+    "options": {
+      "A": "To reduce costs of employee benefits",
+      "B": "To increase job satisfaction",
+      "C": "To prevent collusion and detect fraud",
+      "D": "To reduce employee training time"
+    },
+    "correct": "C",
+    "explanation": "Job rotation limits the opportunity for fraud and ensures no single employee can hide malicious activity."
+  },
+  {
+    "question": "Which of the following techniques is used to detect unauthorized changes to system files?",
+    "options": {
+      "A": "Port scanning",
+      "B": "Hashing and file integrity monitoring",
+      "C": "Penetration testing",
+      "D": "Traffic sniffing"
+    },
+    "correct": "B",
+    "explanation": "File integrity monitoring uses hashing to identify unauthorized changes in critical system files."
+  },
+  {
+    "question": "In the event of a system compromise, which response step should be performed FIRST?",
+    "options": {
+      "A": "Recover the system",
+      "B": "Notify stakeholders",
+      "C": "Identify and contain the breach",
+      "D": "Eradicate the malware"
+    },
+    "correct": "C",
+    "explanation": "Containing the incident prevents further damage before moving to eradication or recovery steps."
+  },
+  {
+    "question": "Which document outlines how an organization will continue its operations during a disruptive event?",
+    "options": {
+      "A": "Disaster Recovery Plan",
+      "B": "Business Continuity Plan",
+      "C": "Incident Response Plan",
+      "D": "Communication Plan"
+    },
+    "correct": "B",
+    "explanation": "The Business Continuity Plan (BCP) provides guidance on how to maintain operations during and after disruption."
+  },
+  {
+    "question": "What is the PRIMARY purpose of logging in security operations?",
+    "options": {
+      "A": "To provide backups",
+      "B": "To track user productivity",
+      "C": "To provide audit trails and detect incidents",
+      "D": "To improve application performance"
+    },
+    "correct": "C",
+    "explanation": "Logging is essential for maintaining audit trails, detecting incidents, and supporting forensic investigations."
+  },
+  {
+    "question": "Which of the following is a key control for reducing tailgating risks at secure facilities?",
+    "options": {
+      "A": "Motion detectors",
+      "B": "Biometric authentication",
+      "C": "Mantraps",
+      "D": "Firewalls"
+    },
+    "correct": "C",
+    "explanation": "Mantraps help prevent unauthorized individuals from following authorized personnel into secure areas."
+  },
+  {
+    "question": "Which of the following backup types requires the LEAST amount of storage?",
+    "options": {
+      "A": "Full backup",
+      "B": "Incremental backup",
+      "C": "Differential backup",
+      "D": "Real-time replication"
+    },
+    "correct": "B",
+    "explanation": "Incremental backups only save data that has changed since the last backup, requiring less storage."
+  },
+  {
+    "question": "What should be the FIRST action if an employee is suspected of violating the acceptable use policy?",
+    "options": {
+      "A": "Terminate the employee",
+      "B": "Disable the employee’s account",
+      "C": "Start an investigation based on policy",
+      "D": "Call law enforcement"
+    },
+    "correct": "C",
+    "explanation": "Begin by following documented investigation procedures, ensuring due process and proper documentation."
+  },
+  {
+    "question": "Which of the following controls helps in maintaining system uptime during a Distributed Denial of Service (DDoS) attack?",
+    "options": {
+      "A": "Anti-malware software",
+      "B": "Firewall",
+      "C": "Load balancing and redundancy",
+      "D": "Vulnerability scanner"
+    },
+    "correct": "C",
+    "explanation": "Load balancers and redundant infrastructure help maintain service availability during DDoS attacks."
+  },
+  {
+    "question": "Which strategy BEST protects data in transit between remote offices?",
+    "options": {
+      "A": "Data masking",
+      "B": "Firewalls",
+      "C": "VPN with strong encryption",
+      "D": "Network segmentation"
+    },
+    "correct": "C",
+    "explanation": "VPNs with encryption secure data as it travels across untrusted networks."
+  },
+  {
+    "question": "What does Mean Time to Restore (MTTR) measure?",
+    "options": {
+      "A": "Time between system failures",
+      "B": "Time to resume full operations after a failure",
+      "C": "Time before data becomes obsolete",
+      "D": "Amount of backup data retained"
+    },
+    "correct": "B",
+    "explanation": "MTTR refers to how long it takes to restore a system after a failure or incident."
+  },
+  {
+    "question": "Which security concept ensures that sensitive information is not disclosed to unauthorized individuals?",
+    "options": {
+      "A": "Integrity",
+      "B": "Availability",
+      "C": "Accountability",
+      "D": "Confidentiality"
+    },
+    "correct": "D",
+    "explanation": "Confidentiality ensures only authorized parties have access to sensitive information."
+  }
+]
+

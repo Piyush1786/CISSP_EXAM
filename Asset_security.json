@@ -1,0 +1,223 @@
+[
+  {
+    "question": "What is the PRIMARY objective of data classification within an organization?",
+    "options": {
+      "A": "To reduce data storage costs",
+      "B": "To ensure appropriate handling based on sensitivity",
+      "C": "To meet regulatory compliance",
+      "D": "To prevent insider threats"
+    },
+    "correct": "B",
+    "explanation": "Data classification ensures that data is handled according to its sensitivity and criticality, helping to apply the appropriate level of security controls."
+  },
+  {
+    "question": "Which of the following is MOST important when disposing of sensitive printed materials?",
+    "options": {
+      "A": "Recycling",
+      "B": "Shredding",
+      "C": "Storage in secure bins",
+      "D": "Erasing"
+    },
+    "correct": "B",
+    "explanation": "Shredding physically destroys printed material, preventing data leakage or recovery of sensitive information."
+  },
+  {
+    "question": "Which control is MOST effective for preventing unauthorized access to backup tapes?",
+    "options": {
+      "A": "Data encryption",
+      "B": "Firewall rules",
+      "C": "RAID implementation",
+      "D": "Anti-virus scanning"
+    },
+    "correct": "A",
+    "explanation": "Encryption ensures that even if the tapes are accessed or stolen, the data remains unreadable without proper decryption keys."
+  },
+  {
+    "question": "During a data retention review, a company discovers it is keeping data far longer than necessary. What is the PRIMARY risk?",
+    "options": {
+      "A": "Loss of data availability",
+      "B": "Regulatory non-compliance",
+      "C": "Improper classification",
+      "D": "Data loss due to hardware failure"
+    },
+    "correct": "B",
+    "explanation": "Keeping data longer than necessary can violate data privacy and regulatory laws, leading to potential legal penalties."
+  },
+  {
+    "question": "What is the BEST method to verify that removable media containing sensitive information is securely wiped before disposal?",
+    "options": {
+      "A": "Overwrite once using zeros",
+      "B": "Delete the data and empty the recycle bin",
+      "C": "Verify via hash comparison before and after wipe",
+      "D": "Format the media"
+    },
+    "correct": "C",
+    "explanation": "Hash comparison ensures the contents have been completely and irreversibly changed or removed."
+  },
+  {
+    "question": "What is the PRIMARY purpose of data labeling?",
+    "options": {
+      "A": "To simplify searching for data",
+      "B": "To assist in encryption processes",
+      "C": "To identify sensitivity and handling requirements",
+      "D": "To meet ISO certification requirements"
+    },
+    "correct": "C",
+    "explanation": "Labeling helps identify how data should be handled and what security measures apply based on classification."
+  },
+  {
+    "question": "Which of the following is a key requirement in a data retention policy?",
+    "options": {
+      "A": "Backup frequency",
+      "B": "Audit schedule",
+      "C": "Retention duration",
+      "D": "Patch cycle"
+    },
+    "correct": "C",
+    "explanation": "A data retention policy must define how long data should be retained based on legal, regulatory, or business needs."
+  },
+  {
+    "question": "Who is typically responsible for assigning data classifications?",
+    "options": {
+      "A": "IT Administrator",
+      "B": "Data Owner",
+      "C": "Compliance Officer",
+      "D": "Auditor"
+    },
+    "correct": "B",
+    "explanation": "The data owner is responsible for determining the classification of data based on its value, sensitivity, and criticality."
+  },
+  {
+    "question": "What is the PRIMARY security risk associated with improper data remanence handling?",
+    "options": {
+      "A": "Denial of service",
+      "B": "Physical damage to hardware",
+      "C": "Unauthorized data recovery",
+      "D": "Malware infection"
+    },
+    "correct": "C",
+    "explanation": "Improper handling of data remnants can lead to unauthorized recovery of sensitive data from decommissioned devices."
+  },
+  {
+    "question": "An employee downloads company data to a personal device. What control can help prevent this behavior?",
+    "options": {
+      "A": "Security awareness training",
+      "B": "Data Loss Prevention (DLP)",
+      "C": "Anti-malware tools",
+      "D": "Single sign-on (SSO)"
+    },
+    "correct": "B",
+    "explanation": "DLP solutions help monitor and control data transfer activities, preventing unauthorized downloads of sensitive data."
+  },
+  {
+    "question": "Which of the following MOST accurately describes data in transit?",
+    "options": {
+      "A": "Data being stored on cloud platforms",
+      "B": "Data being processed in RAM",
+      "C": "Data being transferred over a network",
+      "D": "Data archived in backup media"
+    },
+    "correct": "C",
+    "explanation": "Data in transit refers to data actively moving between systems, such as across a network."
+  },
+  {
+    "question": "What type of control is classifying data as 'Top Secret'?",
+    "options": {
+      "A": "Technical",
+      "B": "Preventive",
+      "C": "Physical",
+      "D": "Administrative"
+    },
+    "correct": "D",
+    "explanation": "Classification is a form of administrative control involving policy and procedural decisions."
+  },
+  {
+    "question": "Why is the principle of 'least privilege' important in protecting data confidentiality?",
+    "options": {
+      "A": "It restricts user access to only necessary data",
+      "B": "It increases accountability through logging",
+      "C": "It encrypts user files automatically",
+      "D": "It enforces password complexity"
+    },
+    "correct": "A",
+    "explanation": "Least privilege ensures users only have access to the data necessary for their roles, reducing the risk of exposure."
+  },
+  {
+    "question": "Which of the following BEST reduces the risk of insider data theft?",
+    "options": {
+      "A": "External firewall",
+      "B": "DLP systems",
+      "C": "Antivirus",
+      "D": "Disaster recovery plan"
+    },
+    "correct": "B",
+    "explanation": "DLP systems monitor and restrict sensitive data movement, helping detect and prevent insider data theft."
+  },
+  {
+    "question": "Which term refers to residual data that remains after attempts to delete it?",
+    "options": {
+      "A": "Data retention",
+      "B": "Data integrity",
+      "C": "Data remanence",
+      "D": "Data redundancy"
+    },
+    "correct": "C",
+    "explanation": "Data remanence refers to leftover data on media even after deletion, posing a security risk if not properly handled."
+  },
+  {
+    "question": "Which of the following is the BEST technique for ensuring the confidentiality of data stored in the cloud?",
+    "options": {
+      "A": "Strong password policy",
+      "B": "Data encryption",
+      "C": "Access logs",
+      "D": "VPN tunneling"
+    },
+    "correct": "B",
+    "explanation": "Encryption ensures that even if cloud data is accessed without authorization, it remains unreadable without keys."
+  },
+  {
+    "question": "Which control is BEST suited to protect unstructured data on a file server?",
+    "options": {
+      "A": "Firewall",
+      "B": "DLP agent",
+      "C": "File permissions",
+      "D": "Patch management"
+    },
+    "correct": "C",
+    "explanation": "File permissions directly control access to unstructured data on file systems and help enforce data security policies."
+  },
+  {
+    "question": "A company is transferring confidential customer data to an offsite storage provider. What should be done FIRST?",
+    "options": {
+      "A": "Sign a data destruction certificate",
+      "B": "Encrypt the data",
+      "C": "Conduct a risk assessment",
+      "D": "Notify customers"
+    },
+    "correct": "C",
+    "explanation": "A risk assessment should be performed first to understand potential exposure and determine appropriate security controls."
+  },
+  {
+    "question": "How often should an organization review its data classification scheme?",
+    "options": {
+      "A": "Once a decade",
+      "B": "Only after data breaches",
+      "C": "Periodically and after major changes",
+      "D": "Only when required by auditors"
+    },
+    "correct": "C",
+    "explanation": "Classification schemes should be reviewed periodically and after significant business or regulatory changes to stay effective."
+  },
+  {
+    "question": "A company implements full-disk encryption on all laptops. What asset security principle is being addressed?",
+    "options": {
+      "A": "Availability",
+      "B": "Confidentiality",
+      "C": "Integrity",
+      "D": "Resilience"
+    },
+    "correct": "B",
+    "explanation": "Full-disk encryption protects the confidentiality of data in the event of loss or theft of the device."
+  }
+]
+

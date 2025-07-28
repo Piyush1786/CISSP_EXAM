@@ -1,0 +1,223 @@
+[
+  {
+    "question": "Which principle ensures that access to information is based on business need and job responsibilities?",
+    "options": {
+      "A": "Least Privilege",
+      "B": "Separation of Duties",
+      "C": "Job Rotation",
+      "D": "Need to Know"
+    },
+    "correct": "D",
+    "explanation": "The 'Need to Know' principle ensures that individuals only access information necessary to perform their job functions."
+  },
+  {
+    "question": "What is the PRIMARY goal of information security governance?",
+    "options": {
+      "A": "Ensure compliance with legal requirements",
+      "B": "Reduce operational costs",
+      "C": "Align security strategies with business objectives",
+      "D": "Implement advanced technologies"
+    },
+    "correct": "C",
+    "explanation": "Governance aligns security objectives with business goals, ensuring risk is managed in line with business priorities."
+  },
+  {
+    "question": "Which of the following is the MOST important reason to maintain an up-to-date threat model?",
+    "options": {
+      "A": "To comply with security frameworks",
+      "B": "To keep documentation updated",
+      "C": "To reflect changes in business and technology environments",
+      "D": "To meet audit requirements"
+    },
+    "correct": "C",
+    "explanation": "Threat models must evolve with changes in business and technology to stay effective and relevant."
+  },
+  {
+    "question": "Which of the following best describes a control that is *preventive* in nature?",
+    "options": {
+      "A": "Security alarm system",
+      "B": "Access control lock",
+      "C": "Audit trail",
+      "D": "Incident response plan"
+    },
+    "correct": "B",
+    "explanation": "Access control locks prevent unauthorized access, making them preventive controls."
+  },
+  {
+    "question": "What is the PRIMARY objective of a business impact analysis (BIA)?",
+    "options": {
+      "A": "Identify critical business functions and the impact of disruption",
+      "B": "Determine budget for disaster recovery solutions",
+      "C": "Assess compliance with business continuity frameworks",
+      "D": "Establish SLAs with cloud providers"
+    },
+    "correct": "A",
+    "explanation": "A BIA identifies essential functions and the consequences of disruption, helping prioritize recovery efforts."
+  },
+  {
+    "question": "Which of the following is MOST critical to the effectiveness of a security awareness training program?",
+    "options": {
+      "A": "Length of the training",
+      "B": "Interactive elements",
+      "C": "Executive sponsorship",
+      "D": "Periodic password resets"
+    },
+    "correct": "C",
+    "explanation": "Executive sponsorship ensures organizational support, making training programs more effective and widely adopted."
+  },
+  {
+    "question": "What is the PRIMARY purpose of risk appetite in enterprise risk management?",
+    "options": {
+      "A": "To limit executive liability",
+      "B": "To comply with regulatory frameworks",
+      "C": "To define the acceptable level of risk",
+      "D": "To dictate budget for security tools"
+    },
+    "correct": "C",
+    "explanation": "Risk appetite defines the amount of risk an organization is willing to accept to achieve its goals."
+  },
+  {
+    "question": "Which of the following should be the FIRST step in establishing an information security program?",
+    "options": {
+      "A": "Conduct a penetration test",
+      "B": "Define a security policy",
+      "C": "Purchase security tools",
+      "D": "Develop incident response procedures"
+    },
+    "correct": "B",
+    "explanation": "The security policy is foundational and guides the development and implementation of all other security controls."
+  },
+  {
+    "question": "Which control type focuses on responding to and containing incidents after they occur?",
+    "options": {
+      "A": "Deterrent",
+      "B": "Preventive",
+      "C": "Corrective",
+      "D": "Detective"
+    },
+    "correct": "C",
+    "explanation": "Corrective controls are applied after an incident to mitigate impact and prevent recurrence."
+  },
+  {
+    "question": "Which regulation primarily focuses on protecting the privacy of healthcare information?",
+    "options": {
+      "A": "SOX",
+      "B": "HIPAA",
+      "C": "GLBA",
+      "D": "FISMA"
+    },
+    "correct": "B",
+    "explanation": "HIPAA (Health Insurance Portability and Accountability Act) protects the privacy and security of health data."
+  },
+  {
+    "question": "An organization is planning to migrate to a cloud provider. What is the MOST critical risk management consideration?",
+    "options": {
+      "A": "Cost of migration",
+      "B": "Shared responsibility model",
+      "C": "Uptime SLA",
+      "D": "Backup strategy"
+    },
+    "correct": "B",
+    "explanation": "Understanding the shared responsibility model is essential to identify who manages specific security responsibilities."
+  },
+  {
+    "question": "Which document outlines acceptable behavior for users within an organization?",
+    "options": {
+      "A": "Security baseline",
+      "B": "Standard operating procedure",
+      "C": "Acceptable use policy",
+      "D": "Audit trail"
+    },
+    "correct": "C",
+    "explanation": "An Acceptable Use Policy (AUP) defines what is and isn’t permitted when using company assets."
+  },
+  {
+    "question": "What is the PRIMARY benefit of performing regular risk assessments?",
+    "options": {
+      "A": "To comply with audit requirements",
+      "B": "To prioritize and manage risks proactively",
+      "C": "To reduce training costs",
+      "D": "To assign blame after incidents"
+    },
+    "correct": "B",
+    "explanation": "Risk assessments help proactively identify and prioritize risks, enabling appropriate controls to be implemented."
+  },
+  {
+    "question": "What role does senior management play in information security governance?",
+    "options": {
+      "A": "Monitoring firewall logs",
+      "B": "Installing antivirus software",
+      "C": "Providing strategic direction and support",
+      "D": "Auditing file shares"
+    },
+    "correct": "C",
+    "explanation": "Senior management provides leadership, budget, and direction essential for effective security governance."
+  },
+  {
+    "question": "Which of the following is considered an administrative control?",
+    "options": {
+      "A": "Firewall rules",
+      "B": "Background checks",
+      "C": "Antivirus software",
+      "D": "Motion detectors"
+    },
+    "correct": "B",
+    "explanation": "Administrative controls include policies, procedures, and background checks to influence user behavior."
+  },
+  {
+    "question": "What is the purpose of implementing Separation of Duties (SoD)?",
+    "options": {
+      "A": "To reduce software costs",
+      "B": "To comply with licensing agreements",
+      "C": "To prevent fraud and errors",
+      "D": "To improve server performance"
+    },
+    "correct": "C",
+    "explanation": "SoD ensures that no single person can complete a critical task alone, reducing the risk of fraud or mistakes."
+  },
+  {
+    "question": "Which of the following terms refers to the likelihood and impact of a threat exploiting a vulnerability?",
+    "options": {
+      "A": "Risk",
+      "B": "Exposure",
+      "C": "Impact",
+      "D": "Threat agent"
+    },
+    "correct": "A",
+    "explanation": "Risk is the potential that a threat will exploit a vulnerability, resulting in harm."
+  },
+  {
+    "question": "How should an organization handle a residual risk?",
+    "options": {
+      "A": "Eliminate it",
+      "B": "Transfer it",
+      "C": "Ignore it",
+      "D": "Accept or mitigate it"
+    },
+    "correct": "D",
+    "explanation": "Residual risk is the remaining risk after controls are applied. It can be accepted or further mitigated."
+  },
+  {
+    "question": "What is the PRIMARY purpose of a code of ethics in information security?",
+    "options": {
+      "A": "To enforce security policies",
+      "B": "To satisfy compliance requirements",
+      "C": "To guide professional behavior",
+      "D": "To reduce costs"
+    },
+    "correct": "C",
+    "explanation": "A code of ethics guides professionals in making ethical decisions and upholding trust in the field."
+  },
+  {
+    "question": "Which of the following is an example of risk transference?",
+    "options": {
+      "A": "Hiring a CISO",
+      "B": "Encrypting all data at rest",
+      "C": "Purchasing cyber insurance",
+      "D": "Implementing firewall rules"
+    },
+    "correct": "C",
+    "explanation": "Risk transference involves shifting risk to a third party, such as by purchasing insurance."
+  }
+]
+

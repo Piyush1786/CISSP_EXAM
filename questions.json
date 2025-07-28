@@ -1,0 +1,882 @@
+[
+  {
+    "question": "Which of the following access control models is based on labels and security clearances?",
+    "options": {
+      "A": "Discretionary Access Control (DAC)",
+      "B": "Mandatory Access Control (MAC)",
+      "C": "Role-Based Access Control (RBAC)",
+      "D": "Rule-Based Access Control"
+    },
+    "correct": "B",
+    "explanation": "MAC enforces access based on information classifications and user clearances."
+  },
+  {
+    "question": "A company implements an intrusion detection system (IDS). What kind of security control is this?",
+    "options": {
+      "A": "Corrective",
+      "B": "Preventive",
+      "C": "Detective",
+      "D": "Compensating"
+    },
+    "correct": "C",
+    "explanation": "IDSs detect unauthorized or anomalous activity and are considered detective controls."
+  },
+  {
+    "question": "What is the PRIMARY reason for performing risk assessments on a regular basis?",
+    "options": {
+      "A": "To comply with regulatory requirements",
+      "B": "To maintain an accurate asset inventory",
+      "C": "To address changing threats and vulnerabilities",
+      "D": "To document controls"
+    },
+    "correct": "C",
+    "explanation": "Regular risk assessments are essential to stay updated with evolving threats and vulnerabilities."
+  },
+  {
+    "question": "During a BCP review, the team realizes that one critical system is not covered. What should be done FIRST?",
+    "options": {
+      "A": "Conduct a risk assessment for the system",
+      "B": "Purchase insurance for the system",
+      "C": "Update incident response plan",
+      "D": "Notify senior management"
+    },
+    "correct": "A",
+    "explanation": "Before making any decisions, a risk assessment should be conducted to evaluate the system\u2019s impact."
+  },
+  {
+    "question": "What is the PRIMARY goal of information security governance?",
+    "options": {
+      "A": "Ensure compliance with industry standards",
+      "B": "Establish metrics for measuring performance",
+      "C": "Align security strategy with business objectives",
+      "D": "Minimize security incidents"
+    },
+    "correct": "C",
+    "explanation": "Governance focuses on aligning security initiatives with the business\u2019s goals and risk appetite."
+  },
+  {
+    "question": "You are designing a security architecture for a cloud-hosted application. Which is the MOST effective strategy?",
+    "options": {
+      "A": "Rely on the cloud provider\u2019s security policies",
+      "B": "Implement security controls at all layers",
+      "C": "Use default configurations",
+      "D": "Enable two-factor authentication only for admin users"
+    },
+    "correct": "B",
+    "explanation": "A defense-in-depth strategy requires controls at all levels to mitigate risks effectively."
+  },
+  {
+    "question": "Which of the following BEST describes due diligence?",
+    "options": {
+      "A": "Investigating a vendor's security posture before contracting",
+      "B": "Encrypting all data-at-rest",
+      "C": "Auditing systems for compliance",
+      "D": "Writing a secure software policy"
+    },
+    "correct": "A",
+    "explanation": "Due diligence is the act of investigating before entering into a business relationship."
+  },
+  {
+    "question": "A bank needs to ensure its customers cannot repudiate online transactions. What security principle applies?",
+    "options": {
+      "A": "Integrity",
+      "B": "Confidentiality",
+      "C": "Availability",
+      "D": "Non-repudiation"
+    },
+    "correct": "D",
+    "explanation": "Non-repudiation ensures that a user cannot deny having performed an action or transaction."
+  },
+  {
+    "question": "Which cryptographic function ensures that a message has not been altered?",
+    "options": {
+      "A": "Symmetric encryption",
+      "B": "Digital certificate",
+      "C": "Hashing",
+      "D": "Public key encryption"
+    },
+    "correct": "C",
+    "explanation": "Hashing detects changes in data by producing a unique fixed-size value for data integrity verification."
+  },
+  {
+    "question": "In a security assessment, which technique involves simulating an attack to test defenses?",
+    "options": {
+      "A": "Vulnerability scanning",
+      "B": "Penetration testing",
+      "C": "Risk analysis",
+      "D": "Code review"
+    },
+    "correct": "B",
+    "explanation": "Penetration testing actively exploits vulnerabilities to evaluate the effectiveness of defenses."
+  },
+  {
+    "question": "A company implements an intrusion detection system (IDS). What kind of security control is this? (variant 10)",
+    "options": {
+      "A": "Corrective",
+      "B": "Preventive",
+      "C": "Detective",
+      "D": "Compensating"
+    },
+    "correct": "C",
+    "explanation": "IDSs detect unauthorized or anomalous activity and are considered detective controls."
+  },
+  {
+    "question": "A company implements an intrusion detection system (IDS). What kind of security control is this? (variant 10) (variant 11)",
+    "options": {
+      "A": "Corrective",
+      "B": "Preventive",
+      "C": "Detective",
+      "D": "Compensating"
+    },
+    "correct": "C",
+    "explanation": "IDSs detect unauthorized or anomalous activity and are considered detective controls."
+  },
+  {
+    "question": "A company implements an intrusion detection system (IDS). What kind of security control is this? (variant 12)",
+    "options": {
+      "A": "Corrective",
+      "B": "Preventive",
+      "C": "Detective",
+      "D": "Compensating"
+    },
+    "correct": "C",
+    "explanation": "IDSs detect unauthorized or anomalous activity and are considered detective controls."
+  },
+  {
+    "question": "A company implements an intrusion detection system (IDS). What kind of security control is this? (variant 10) (variant 13)",
+    "options": {
+      "A": "Corrective",
+      "B": "Preventive",
+      "C": "Detective",
+      "D": "Compensating"
+    },
+    "correct": "C",
+    "explanation": "IDSs detect unauthorized or anomalous activity and are considered detective controls."
+  },
+  {
+    "question": "A company implements an intrusion detection system (IDS). What kind of security control is this? (variant 10) (variant 14)",
+    "options": {
+      "A": "Corrective",
+      "B": "Preventive",
+      "C": "Detective",
+      "D": "Compensating"
+    },
+    "correct": "C",
+    "explanation": "IDSs detect unauthorized or anomalous activity and are considered detective controls."
+  },
+  {
+    "question": "Which of the following access control models is based on labels and security clearances? (variant 15)",
+    "options": {
+      "A": "Discretionary Access Control (DAC)",
+      "B": "Mandatory Access Control (MAC)",
+      "C": "Role-Based Access Control (RBAC)",
+      "D": "Rule-Based Access Control"
+    },
+    "correct": "B",
+    "explanation": "MAC enforces access based on information classifications and user clearances."
+  },
+  {
+    "question": "Which of the following BEST describes due diligence? (variant 16)",
+    "options": {
+      "A": "Investigating a vendor's security posture before contracting",
+      "B": "Encrypting all data-at-rest",
+      "C": "Auditing systems for compliance",
+      "D": "Writing a secure software policy"
+    },
+    "correct": "A",
+    "explanation": "Due diligence is the act of investigating before entering into a business relationship."
+  },
+  {
+    "question": "A company implements an intrusion detection system (IDS). What kind of security control is this? (variant 17)",
+    "options": {
+      "A": "Corrective",
+      "B": "Preventive",
+      "C": "Detective",
+      "D": "Compensating"
+    },
+    "correct": "C",
+    "explanation": "IDSs detect unauthorized or anomalous activity and are considered detective controls."
+  },
+  {
+    "question": "A company implements an intrusion detection system (IDS). What kind of security control is this? (variant 10) (variant 14) (variant 18)",
+    "options": {
+      "A": "Corrective",
+      "B": "Preventive",
+      "C": "Detective",
+      "D": "Compensating"
+    },
+    "correct": "C",
+    "explanation": "IDSs detect unauthorized or anomalous activity and are considered detective controls."
+  },
+  {
+    "question": "A company implements an intrusion detection system (IDS). What kind of security control is this? (variant 10) (variant 14) (variant 19)",
+    "options": {
+      "A": "Corrective",
+      "B": "Preventive",
+      "C": "Detective",
+      "D": "Compensating"
+    },
+    "correct": "C",
+    "explanation": "IDSs detect unauthorized or anomalous activity and are considered detective controls."
+  },
+  {
+    "question": "A company implements an intrusion detection system (IDS). What kind of security control is this? (variant 10) (variant 14) (variant 19) (variant 20)",
+    "options": {
+      "A": "Corrective",
+      "B": "Preventive",
+      "C": "Detective",
+      "D": "Compensating"
+    },
+    "correct": "C",
+    "explanation": "IDSs detect unauthorized or anomalous activity and are considered detective controls."
+  },
+  {
+    "question": "Which cryptographic function ensures that a message has not been altered? (variant 21)",
+    "options": {
+      "A": "Symmetric encryption",
+      "B": "Digital certificate",
+      "C": "Hashing",
+      "D": "Public key encryption"
+    },
+    "correct": "C",
+    "explanation": "Hashing detects changes in data by producing a unique fixed-size value for data integrity verification."
+  },
+  {
+    "question": "A company implements an intrusion detection system (IDS). What kind of security control is this? (variant 12) (variant 22)",
+    "options": {
+      "A": "Corrective",
+      "B": "Preventive",
+      "C": "Detective",
+      "D": "Compensating"
+    },
+    "correct": "C",
+    "explanation": "IDSs detect unauthorized or anomalous activity and are considered detective controls."
+  },
+  {
+    "question": "A company implements an intrusion detection system (IDS). What kind of security control is this? (variant 10) (variant 14) (variant 19) (variant 20) (variant 23)",
+    "options": {
+      "A": "Corrective",
+      "B": "Preventive",
+      "C": "Detective",
+      "D": "Compensating"
+    },
+    "correct": "C",
+    "explanation": "IDSs detect unauthorized or anomalous activity and are considered detective controls."
+  },
+  {
+    "question": "A company implements an intrusion detection system (IDS). What kind of security control is this? (variant 10) (variant 11) (variant 24)",
+    "options": {
+      "A": "Corrective",
+      "B": "Preventive",
+      "C": "Detective",
+      "D": "Compensating"
+    },
+    "correct": "C",
+    "explanation": "IDSs detect unauthorized or anomalous activity and are considered detective controls."
+  },
+  {
+    "question": "A company implements an intrusion detection system (IDS). What kind of security control is this? (variant 10) (variant 14) (variant 25)",
+    "options": {
+      "A": "Corrective",
+      "B": "Preventive",
+      "C": "Detective",
+      "D": "Compensating"
+    },
+    "correct": "C",
+    "explanation": "IDSs detect unauthorized or anomalous activity and are considered detective controls."
+  },
+  {
+    "question": "A company implements an intrusion detection system (IDS). What kind of security control is this? (variant 10) (variant 11) (variant 24) (variant 26)",
+    "options": {
+      "A": "Corrective",
+      "B": "Preventive",
+      "C": "Detective",
+      "D": "Compensating"
+    },
+    "correct": "C",
+    "explanation": "IDSs detect unauthorized or anomalous activity and are considered detective controls."
+  },
+  {
+    "question": "A company implements an intrusion detection system (IDS). What kind of security control is this? (variant 10) (variant 14) (variant 19) (variant 20) (variant 27)",
+    "options": {
+      "A": "Corrective",
+      "B": "Preventive",
+      "C": "Detective",
+      "D": "Compensating"
+    },
+    "correct": "C",
+    "explanation": "IDSs detect unauthorized or anomalous activity and are considered detective controls."
+  },
+  {
+    "question": "A company implements an intrusion detection system (IDS). What kind of security control is this? (variant 12) (variant 28)",
+    "options": {
+      "A": "Corrective",
+      "B": "Preventive",
+      "C": "Detective",
+      "D": "Compensating"
+    },
+    "correct": "C",
+    "explanation": "IDSs detect unauthorized or anomalous activity and are considered detective controls."
+  },
+  {
+    "question": "A company implements an intrusion detection system (IDS). What kind of security control is this? (variant 10) (variant 11) (variant 24) (variant 29)",
+    "options": {
+      "A": "Corrective",
+      "B": "Preventive",
+      "C": "Detective",
+      "D": "Compensating"
+    },
+    "correct": "C",
+    "explanation": "IDSs detect unauthorized or anomalous activity and are considered detective controls."
+  },
+  {
+    "question": "Which of the following BEST describes due diligence? (variant 16) (variant 30)",
+    "options": {
+      "A": "Investigating a vendor's security posture before contracting",
+      "B": "Encrypting all data-at-rest",
+      "C": "Auditing systems for compliance",
+      "D": "Writing a secure software policy"
+    },
+    "correct": "A",
+    "explanation": "Due diligence is the act of investigating before entering into a business relationship."
+  },
+  {
+    "question": "A company implements an intrusion detection system (IDS). What kind of security control is this? (variant 10) (variant 14) (variant 19) (variant 20) (variant 27) (variant 31)",
+    "options": {
+      "A": "Corrective",
+      "B": "Preventive",
+      "C": "Detective",
+      "D": "Compensating"
+    },
+    "correct": "C",
+    "explanation": "IDSs detect unauthorized or anomalous activity and are considered detective controls."
+  },
+  {
+    "question": "Which of the following access control models is based on labels and security clearances? (variant 32)",
+    "options": {
+      "A": "Discretionary Access Control (DAC)",
+      "B": "Mandatory Access Control (MAC)",
+      "C": "Role-Based Access Control (RBAC)",
+      "D": "Rule-Based Access Control"
+    },
+    "correct": "B",
+    "explanation": "MAC enforces access based on information classifications and user clearances."
+  },
+  {
+    "question": "A company implements an intrusion detection system (IDS). What kind of security control is this? (variant 10) (variant 11) (variant 24) (variant 33)",
+    "options": {
+      "A": "Corrective",
+      "B": "Preventive",
+      "C": "Detective",
+      "D": "Compensating"
+    },
+    "correct": "C",
+    "explanation": "IDSs detect unauthorized or anomalous activity and are considered detective controls."
+  },
+  {
+    "question": "A company implements an intrusion detection system (IDS). What kind of security control is this? (variant 10) (variant 34)",
+    "options": {
+      "A": "Corrective",
+      "B": "Preventive",
+      "C": "Detective",
+      "D": "Compensating"
+    },
+    "correct": "C",
+    "explanation": "IDSs detect unauthorized or anomalous activity and are considered detective controls."
+  },
+  {
+    "question": "A company implements an intrusion detection system (IDS). What kind of security control is this? (variant 35)",
+    "options": {
+      "A": "Corrective",
+      "B": "Preventive",
+      "C": "Detective",
+      "D": "Compensating"
+    },
+    "correct": "C",
+    "explanation": "IDSs detect unauthorized or anomalous activity and are considered detective controls."
+  },
+  {
+    "question": "A company implements an intrusion detection system (IDS). What kind of security control is this? (variant 17) (variant 36)",
+    "options": {
+      "A": "Corrective",
+      "B": "Preventive",
+      "C": "Detective",
+      "D": "Compensating"
+    },
+    "correct": "C",
+    "explanation": "IDSs detect unauthorized or anomalous activity and are considered detective controls."
+  },
+  {
+    "question": "A company implements an intrusion detection system (IDS). What kind of security control is this? (variant 10) (variant 13) (variant 37)",
+    "options": {
+      "A": "Corrective",
+      "B": "Preventive",
+      "C": "Detective",
+      "D": "Compensating"
+    },
+    "correct": "C",
+    "explanation": "IDSs detect unauthorized or anomalous activity and are considered detective controls."
+  },
+  {
+    "question": "A bank needs to ensure its customers cannot repudiate online transactions. What security principle applies? (variant 38)",
+    "options": {
+      "A": "Integrity",
+      "B": "Confidentiality",
+      "C": "Availability",
+      "D": "Non-repudiation"
+    },
+    "correct": "D",
+    "explanation": "Non-repudiation ensures that a user cannot deny having performed an action or transaction."
+  },
+  {
+    "question": "A company implements an intrusion detection system (IDS). What kind of security control is this? (variant 10) (variant 11) (variant 39)",
+    "options": {
+      "A": "Corrective",
+      "B": "Preventive",
+      "C": "Detective",
+      "D": "Compensating"
+    },
+    "correct": "C",
+    "explanation": "IDSs detect unauthorized or anomalous activity and are considered detective controls."
+  },
+  {
+    "question": "Which cryptographic function ensures that a message has not been altered? (variant 21) (variant 40)",
+    "options": {
+      "A": "Symmetric encryption",
+      "B": "Digital certificate",
+      "C": "Hashing",
+      "D": "Public key encryption"
+    },
+    "correct": "C",
+    "explanation": "Hashing detects changes in data by producing a unique fixed-size value for data integrity verification."
+  },
+  {
+    "question": "A company implements an intrusion detection system (IDS). What kind of security control is this? (variant 10) (variant 11) (variant 24) (variant 26) (variant 41)",
+    "options": {
+      "A": "Corrective",
+      "B": "Preventive",
+      "C": "Detective",
+      "D": "Compensating"
+    },
+    "correct": "C",
+    "explanation": "IDSs detect unauthorized or anomalous activity and are considered detective controls."
+  },
+  {
+    "question": "A company implements an intrusion detection system (IDS). What kind of security control is this? (variant 35) (variant 42)",
+    "options": {
+      "A": "Corrective",
+      "B": "Preventive",
+      "C": "Detective",
+      "D": "Compensating"
+    },
+    "correct": "C",
+    "explanation": "IDSs detect unauthorized or anomalous activity and are considered detective controls."
+  },
+  {
+    "question": "Which cryptographic function ensures that a message has not been altered? (variant 43)",
+    "options": {
+      "A": "Symmetric encryption",
+      "B": "Digital certificate",
+      "C": "Hashing",
+      "D": "Public key encryption"
+    },
+    "correct": "C",
+    "explanation": "Hashing detects changes in data by producing a unique fixed-size value for data integrity verification."
+  },
+  {
+    "question": "A bank needs to ensure its customers cannot repudiate online transactions. What security principle applies? (variant 44)",
+    "options": {
+      "A": "Integrity",
+      "B": "Confidentiality",
+      "C": "Availability",
+      "D": "Non-repudiation"
+    },
+    "correct": "D",
+    "explanation": "Non-repudiation ensures that a user cannot deny having performed an action or transaction."
+  },
+  {
+    "question": "A company implements an intrusion detection system (IDS). What kind of security control is this? (variant 17) (variant 45)",
+    "options": {
+      "A": "Corrective",
+      "B": "Preventive",
+      "C": "Detective",
+      "D": "Compensating"
+    },
+    "correct": "C",
+    "explanation": "IDSs detect unauthorized or anomalous activity and are considered detective controls."
+  },
+  {
+    "question": "A company implements an intrusion detection system (IDS). What kind of security control is this? (variant 10) (variant 11) (variant 24) (variant 26) (variant 46)",
+    "options": {
+      "A": "Corrective",
+      "B": "Preventive",
+      "C": "Detective",
+      "D": "Compensating"
+    },
+    "correct": "C",
+    "explanation": "IDSs detect unauthorized or anomalous activity and are considered detective controls."
+  },
+  {
+    "question": "Which of the following BEST describes due diligence? (variant 47)",
+    "options": {
+      "A": "Investigating a vendor's security posture before contracting",
+      "B": "Encrypting all data-at-rest",
+      "C": "Auditing systems for compliance",
+      "D": "Writing a secure software policy"
+    },
+    "correct": "A",
+    "explanation": "Due diligence is the act of investigating before entering into a business relationship."
+  },
+  {
+    "question": "A bank needs to ensure its customers cannot repudiate online transactions. What security principle applies? (variant 44) (variant 48)",
+    "options": {
+      "A": "Integrity",
+      "B": "Confidentiality",
+      "C": "Availability",
+      "D": "Non-repudiation"
+    },
+    "correct": "D",
+    "explanation": "Non-repudiation ensures that a user cannot deny having performed an action or transaction."
+  },
+  {
+    "question": "A company implements an intrusion detection system (IDS). What kind of security control is this? (variant 12) (variant 22) (variant 49)",
+    "options": {
+      "A": "Corrective",
+      "B": "Preventive",
+      "C": "Detective",
+      "D": "Compensating"
+    },
+    "correct": "C",
+    "explanation": "IDSs detect unauthorized or anomalous activity and are considered detective controls."
+  },
+  {
+    "question": "Which of the following BEST describes due diligence? (variant 16) (variant 30) (variant 50)",
+    "options": {
+      "A": "Investigating a vendor's security posture before contracting",
+      "B": "Encrypting all data-at-rest",
+      "C": "Auditing systems for compliance",
+      "D": "Writing a secure software policy"
+    },
+    "correct": "A",
+    "explanation": "Due diligence is the act of investigating before entering into a business relationship."
+  },
+  {
+    "question": "A company implements an intrusion detection system (IDS). What kind of security control is this? (variant 10) (variant 14) (variant 19) (variant 20) (variant 27) (variant 31) (variant 51)",
+    "options": {
+      "A": "Corrective",
+      "B": "Preventive",
+      "C": "Detective",
+      "D": "Compensating"
+    },
+    "correct": "C",
+    "explanation": "IDSs detect unauthorized or anomalous activity and are considered detective controls."
+  },
+  {
+    "question": "A company implements an intrusion detection system (IDS). What kind of security control is this? (variant 17) (variant 45) (variant 52)",
+    "options": {
+      "A": "Corrective",
+      "B": "Preventive",
+      "C": "Detective",
+      "D": "Compensating"
+    },
+    "correct": "C",
+    "explanation": "IDSs detect unauthorized or anomalous activity and are considered detective controls."
+  },
+  {
+    "question": "A company implements an intrusion detection system (IDS). What kind of security control is this? (variant 10) (variant 14) (variant 18) (variant 53)",
+    "options": {
+      "A": "Corrective",
+      "B": "Preventive",
+      "C": "Detective",
+      "D": "Compensating"
+    },
+    "correct": "C",
+    "explanation": "IDSs detect unauthorized or anomalous activity and are considered detective controls."
+  },
+  {
+    "question": "Which of the following BEST describes due diligence? (variant 16) (variant 30) (variant 50) (variant 54)",
+    "options": {
+      "A": "Investigating a vendor's security posture before contracting",
+      "B": "Encrypting all data-at-rest",
+      "C": "Auditing systems for compliance",
+      "D": "Writing a secure software policy"
+    },
+    "correct": "A",
+    "explanation": "Due diligence is the act of investigating before entering into a business relationship."
+  },
+  {
+    "question": "Which of the following BEST describes due diligence? (variant 47) (variant 55)",
+    "options": {
+      "A": "Investigating a vendor's security posture before contracting",
+      "B": "Encrypting all data-at-rest",
+      "C": "Auditing systems for compliance",
+      "D": "Writing a secure software policy"
+    },
+    "correct": "A",
+    "explanation": "Due diligence is the act of investigating before entering into a business relationship."
+  },
+  {
+    "question": "A bank needs to ensure its customers cannot repudiate online transactions. What security principle applies? (variant 44) (variant 48) (variant 56)",
+    "options": {
+      "A": "Integrity",
+      "B": "Confidentiality",
+      "C": "Availability",
+      "D": "Non-repudiation"
+    },
+    "correct": "D",
+    "explanation": "Non-repudiation ensures that a user cannot deny having performed an action or transaction."
+  },
+  {
+    "question": "A company implements an intrusion detection system (IDS). What kind of security control is this? (variant 10) (variant 11) (variant 24) (variant 26) (variant 57)",
+    "options": {
+      "A": "Corrective",
+      "B": "Preventive",
+      "C": "Detective",
+      "D": "Compensating"
+    },
+    "correct": "C",
+    "explanation": "IDSs detect unauthorized or anomalous activity and are considered detective controls."
+  },
+  {
+    "question": "Which of the following access control models is based on labels and security clearances? (variant 58)",
+    "options": {
+      "A": "Discretionary Access Control (DAC)",
+      "B": "Mandatory Access Control (MAC)",
+      "C": "Role-Based Access Control (RBAC)",
+      "D": "Rule-Based Access Control"
+    },
+    "correct": "B",
+    "explanation": "MAC enforces access based on information classifications and user clearances."
+  },
+  {
+    "question": "A company implements an intrusion detection system (IDS). What kind of security control is this? (variant 35) (variant 42) (variant 59)",
+    "options": {
+      "A": "Corrective",
+      "B": "Preventive",
+      "C": "Detective",
+      "D": "Compensating"
+    },
+    "correct": "C",
+    "explanation": "IDSs detect unauthorized or anomalous activity and are considered detective controls."
+  },
+  {
+    "question": "A company implements an intrusion detection system (IDS). What kind of security control is this? (variant 35) (variant 42) (variant 60)",
+    "options": {
+      "A": "Corrective",
+      "B": "Preventive",
+      "C": "Detective",
+      "D": "Compensating"
+    },
+    "correct": "C",
+    "explanation": "IDSs detect unauthorized or anomalous activity and are considered detective controls."
+  },
+  {
+    "question": "What is the PRIMARY reason for performing risk assessments on a regular basis? (variant 61)",
+    "options": {
+      "A": "To comply with regulatory requirements",
+      "B": "To maintain an accurate asset inventory",
+      "C": "To address changing threats and vulnerabilities",
+      "D": "To document controls"
+    },
+    "correct": "C",
+    "explanation": "Regular risk assessments are essential to stay updated with evolving threats and vulnerabilities."
+  },
+  {
+    "question": "A company implements an intrusion detection system (IDS). What kind of security control is this? (variant 17) (variant 36) (variant 62)",
+    "options": {
+      "A": "Corrective",
+      "B": "Preventive",
+      "C": "Detective",
+      "D": "Compensating"
+    },
+    "correct": "C",
+    "explanation": "IDSs detect unauthorized or anomalous activity and are considered detective controls."
+  },
+  {
+    "question": "A company implements an intrusion detection system (IDS). What kind of security control is this? (variant 17) (variant 36) (variant 62) (variant 63)",
+    "options": {
+      "A": "Corrective",
+      "B": "Preventive",
+      "C": "Detective",
+      "D": "Compensating"
+    },
+    "correct": "C",
+    "explanation": "IDSs detect unauthorized or anomalous activity and are considered detective controls."
+  },
+  {
+    "question": "A company implements an intrusion detection system (IDS). What kind of security control is this? (variant 10) (variant 64)",
+    "options": {
+      "A": "Corrective",
+      "B": "Preventive",
+      "C": "Detective",
+      "D": "Compensating"
+    },
+    "correct": "C",
+    "explanation": "IDSs detect unauthorized or anomalous activity and are considered detective controls."
+  },
+  {
+    "question": "A company implements an intrusion detection system (IDS). What kind of security control is this? (variant 17) (variant 36) (variant 65)",
+    "options": {
+      "A": "Corrective",
+      "B": "Preventive",
+      "C": "Detective",
+      "D": "Compensating"
+    },
+    "correct": "C",
+    "explanation": "IDSs detect unauthorized or anomalous activity and are considered detective controls."
+  },
+  {
+    "question": "A company implements an intrusion detection system (IDS). What kind of security control is this? (variant 10) (variant 11) (variant 24) (variant 26) (variant 66)",
+    "options": {
+      "A": "Corrective",
+      "B": "Preventive",
+      "C": "Detective",
+      "D": "Compensating"
+    },
+    "correct": "C",
+    "explanation": "IDSs detect unauthorized or anomalous activity and are considered detective controls."
+  },
+  {
+    "question": "Which cryptographic function ensures that a message has not been altered? (variant 21) (variant 40) (variant 67)",
+    "options": {
+      "A": "Symmetric encryption",
+      "B": "Digital certificate",
+      "C": "Hashing",
+      "D": "Public key encryption"
+    },
+    "correct": "C",
+    "explanation": "Hashing detects changes in data by producing a unique fixed-size value for data integrity verification."
+  },
+  {
+    "question": "A company implements an intrusion detection system (IDS). What kind of security control is this? (variant 10) (variant 11) (variant 68)",
+    "options": {
+      "A": "Corrective",
+      "B": "Preventive",
+      "C": "Detective",
+      "D": "Compensating"
+    },
+    "correct": "C",
+    "explanation": "IDSs detect unauthorized or anomalous activity and are considered detective controls."
+  },
+  {
+    "question": "Which of the following BEST describes due diligence? (variant 16) (variant 30) (variant 69)",
+    "options": {
+      "A": "Investigating a vendor's security posture before contracting",
+      "B": "Encrypting all data-at-rest",
+      "C": "Auditing systems for compliance",
+      "D": "Writing a secure software policy"
+    },
+    "correct": "A",
+    "explanation": "Due diligence is the act of investigating before entering into a business relationship."
+  },
+  {
+    "question": "A bank needs to ensure its customers cannot repudiate online transactions. What security principle applies? (variant 44) (variant 70)",
+    "options": {
+      "A": "Integrity",
+      "B": "Confidentiality",
+      "C": "Availability",
+      "D": "Non-repudiation"
+    },
+    "correct": "D",
+    "explanation": "Non-repudiation ensures that a user cannot deny having performed an action or transaction."
+  },
+  {
+    "question": "A company implements an intrusion detection system (IDS). What kind of security control is this? (variant 35) (variant 42) (variant 60) (variant 71)",
+    "options": {
+      "A": "Corrective",
+      "B": "Preventive",
+      "C": "Detective",
+      "D": "Compensating"
+    },
+    "correct": "C",
+    "explanation": "IDSs detect unauthorized or anomalous activity and are considered detective controls."
+  },
+  {
+    "question": "Which of the following BEST describes due diligence? (variant 16) (variant 72)",
+    "options": {
+      "A": "Investigating a vendor's security posture before contracting",
+      "B": "Encrypting all data-at-rest",
+      "C": "Auditing systems for compliance",
+      "D": "Writing a secure software policy"
+    },
+    "correct": "A",
+    "explanation": "Due diligence is the act of investigating before entering into a business relationship."
+  },
+  {
+    "question": "A bank needs to ensure its customers cannot repudiate online transactions. What security principle applies? (variant 73)",
+    "options": {
+      "A": "Integrity",
+      "B": "Confidentiality",
+      "C": "Availability",
+      "D": "Non-repudiation"
+    },
+    "correct": "D",
+    "explanation": "Non-repudiation ensures that a user cannot deny having performed an action or transaction."
+  },
+  {
+    "question": "A company implements an intrusion detection system (IDS). What kind of security control is this? (variant 17) (variant 36) (variant 62) (variant 63) (variant 74)",
+    "options": {
+      "A": "Corrective",
+      "B": "Preventive",
+      "C": "Detective",
+      "D": "Compensating"
+    },
+    "correct": "C",
+    "explanation": "IDSs detect unauthorized or anomalous activity and are considered detective controls."
+  },
+  {
+    "question": "A company implements an intrusion detection system (IDS). What kind of security control is this? (variant 12) (variant 28) (variant 75)",
+    "options": {
+      "A": "Corrective",
+      "B": "Preventive",
+      "C": "Detective",
+      "D": "Compensating"
+    },
+    "correct": "C",
+    "explanation": "IDSs detect unauthorized or anomalous activity and are considered detective controls."
+  },
+  {
+    "question": "Which of the following BEST describes due diligence? (variant 47) (variant 76)",
+    "options": {
+      "A": "Investigating a vendor's security posture before contracting",
+      "B": "Encrypting all data-at-rest",
+      "C": "Auditing systems for compliance",
+      "D": "Writing a secure software policy"
+    },
+    "correct": "A",
+    "explanation": "Due diligence is the act of investigating before entering into a business relationship."
+  },
+  {
+    "question": "A company implements an intrusion detection system (IDS). What kind of security control is this? (variant 10) (variant 11) (variant 24) (variant 29) (variant 77)",
+    "options": {
+      "A": "Corrective",
+      "B": "Preventive",
+      "C": "Detective",
+      "D": "Compensating"
+    },
+    "correct": "C",
+    "explanation": "IDSs detect unauthorized or anomalous activity and are considered detective controls."
+  },
+  {
+    "question": "A company implements an intrusion detection system (IDS). What kind of security control is this? (variant 10) (variant 14) (variant 25) (variant 78)",
+    "options": {
+      "A": "Corrective",
+      "B": "Preventive",
+      "C": "Detective",
+      "D": "Compensating"
+    },
+    "correct": "C",
+    "explanation": "IDSs detect unauthorized or anomalous activity and are considered detective controls."
+  },
+  {
+    "question": "Which of the following BEST describes due diligence? (variant 16) (variant 30) (variant 79)",
+    "options": {
+      "A": "Investigating a vendor's security posture before contracting",
+      "B": "Encrypting all data-at-rest",
+      "C": "Auditing systems for compliance",
+      "D": "Writing a secure software policy"
+    },
+    "correct": "A",
+    "explanation": "Due diligence is the act of investigating before entering into a business relationship."
+  }
+]

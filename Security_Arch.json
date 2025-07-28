@@ -1,0 +1,225 @@
+[
+  {
+    "question": "Which of the following is a PRIMARY advantage of using a Trusted Platform Module (TPM) in enterprise laptops?",
+    "options": {
+      "A": "It increases processing speed for encryption tasks.",
+      "B": "It stores cryptographic keys securely.",
+      "C": "It eliminates the need for a BIOS password.",
+      "D": "It enhances the boot time of the system."
+    },
+    "correct": "B",
+    "explanation": "TPMs securely store cryptographic keys, certificates, and passwords used for hardware-based encryption, enabling secure boot and full disk encryption."
+  },
+  {
+    "question": "What is the primary function of the reference monitor in a trusted computing base (TCB)?",
+    "options": {
+      "A": "Protect audit logs from tampering",
+      "B": "Ensure only privileged users access the kernel",
+      "C": "Enforce access control policies",
+      "D": "Enable process isolation"
+    },
+    "correct": "C",
+    "explanation": "The reference monitor enforces access control by mediating all attempts to access objects and ensuring they are consistent with the security policy."
+  },
+  {
+    "question": "Which security model focuses on maintaining data integrity over confidentiality?",
+    "options": {
+      "A": "Bell-LaPadula",
+      "B": "Clark-Wilson",
+      "C": "Biba",
+      "D": "Brewer-Nash"
+    },
+    "correct": "C",
+    "explanation": "The Biba model is designed to protect data integrity, ensuring that data is not modified by unauthorized subjects."
+  },
+  {
+    "question": "Which of the following best defines a covert timing channel?",
+    "options": {
+      "A": "It uses memory buffers to leak information.",
+      "B": "It uses system logs to transfer data secretly.",
+      "C": "It manipulates the system’s response time to transfer information.",
+      "D": "It uses malware embedded in BIOS firmware."
+    },
+    "correct": "C",
+    "explanation": "Covert timing channels transmit information by varying system timing, such as CPU usage or response delays."
+  },
+  {
+    "question": "In secure system design, what principle ensures that a system remains secure even if a component fails?",
+    "options": {
+      "A": "Least privilege",
+      "B": "Fail-secure",
+      "C": "Defense in depth",
+      "D": "Separation of duties"
+    },
+    "correct": "B",
+    "explanation": "Fail-secure design ensures systems maintain security posture when failures occur, such as defaulting to deny access."
+  },
+  {
+    "question": "Which of the following is NOT a security concern with cloud virtualization technologies?",
+    "options": {
+      "A": "VM sprawl",
+      "B": "Hypervisor escape",
+      "C": "Data remanence",
+      "D": "Moore’s Law"
+    },
+    "correct": "D",
+    "explanation": "Moore’s Law relates to processor growth trends, not security. The others are common cloud virtualization concerns."
+  },
+  {
+    "question": "What is the primary purpose of data diodes in high-security environments?",
+    "options": {
+      "A": "To speed up data transfer between segments",
+      "B": "To allow unidirectional data flow and prevent leaks",
+      "C": "To prevent virus transmission",
+      "D": "To encrypt data between layers"
+    },
+    "correct": "B",
+    "explanation": "Data diodes enforce unidirectional data flow, ensuring data only moves in one direction to prevent exfiltration."
+  },
+  {
+    "question": "Which of the following best describes the concept of security through obscurity?",
+    "options": {
+      "A": "Limiting access using multi-factor authentication",
+      "B": "Relying on secrecy of implementation for protection",
+      "C": "Applying encryption to transmitted data",
+      "D": "Separating critical assets by air gaps"
+    },
+    "correct": "B",
+    "explanation": "Security through obscurity relies on keeping system internals secret rather than using robust controls — it’s not considered a strong security practice."
+  },
+  {
+    "question": "Which type of system is MOST likely to use mandatory access control (MAC)?",
+    "options": {
+      "A": "Corporate email servers",
+      "B": "Military-grade information systems",
+      "C": "Small business networks",
+      "D": "Web-based CRM platforms"
+    },
+    "correct": "B",
+    "explanation": "MAC is typically used in environments like military systems where classification levels must strictly control access."
+  },
+  {
+    "question": "The Orange Book addresses which aspect of computer security?",
+    "options": {
+      "A": "Cryptographic protocols",
+      "B": "Risk assessment methodologies",
+      "C": "Trusted computing system evaluation criteria",
+      "D": "Penetration testing best practices"
+    },
+    "correct": "C",
+    "explanation": "The Orange Book (TCSEC) provides guidelines for evaluating the security of trusted computing systems."
+  },
+
+  {
+    "question": "Which of the following BEST describes a characteristic of a reference monitor?",
+    "options": {
+      "A": "It operates in user mode",
+      "B": "It cannot be tampered with",
+      "C": "It is responsible for memory management",
+      "D": "It restricts CPU access for processes"
+    },
+    "correct": "B",
+    "explanation": "A reference monitor must be tamper-proof, always invoked, and small enough to be fully tested and verified."
+  },
+  {
+    "question": "A system that enforces access based on clearance level is using what model?",
+    "options": {
+      "A": "Discretionary Access Control (DAC)",
+      "B": "Mandatory Access Control (MAC)",
+      "C": "Role-Based Access Control (RBAC)",
+      "D": "Rule-Based Access Control"
+    },
+    "correct": "B",
+    "explanation": "Mandatory Access Control (MAC) is used in environments where users are granted access based on classifications and clearances."
+  },
+  {
+    "question": "Which of the following ensures the confidentiality of data at rest?",
+    "options": {
+      "A": "Access control lists",
+      "B": "Encryption",
+      "C": "Hashing",
+      "D": "Digital signatures"
+    },
+    "correct": "B",
+    "explanation": "Encryption protects data from unauthorized access by making it unreadable without a decryption key."
+  },
+  {
+    "question": "The process of converting plaintext into ciphertext using a secret key is called:",
+    "options": {
+      "A": "Hashing",
+      "B": "Encoding",
+      "C": "Encryption",
+      "D": "Signing"
+    },
+    "correct": "C",
+    "explanation": "Encryption uses a secret key to convert readable data (plaintext) into unreadable data (ciphertext)."
+  },
+  {
+    "question": "Which security model is primarily used for enforcing confidentiality in government systems?",
+    "options": {
+      "A": "Clark-Wilson Model",
+      "B": "Bell-LaPadula Model",
+      "C": "Biba Model",
+      "D": "Brewer-Nash Model"
+    },
+    "correct": "B",
+    "explanation": "The Bell-LaPadula Model focuses on maintaining the confidentiality of data using security labels."
+  },
+  {
+    "question": "In the context of security architecture, what is TOCTOU?",
+    "options": {
+      "A": "A type of backup method",
+      "B": "A model for secure design",
+      "C": "A timing vulnerability",
+      "D": "A cryptographic protocol"
+    },
+    "correct": "C",
+    "explanation": "Time-of-check to time-of-use (TOCTOU) is a race condition that can be exploited in security vulnerabilities."
+  },
+  {
+    "question": "Which of the following best explains why defense-in-depth is used in system design?",
+    "options": {
+      "A": "To reduce performance overhead",
+      "B": "To simplify system administration",
+      "C": "To provide redundancy and layered protection",
+      "D": "To comply with regulatory frameworks"
+    },
+    "correct": "C",
+    "explanation": "Defense-in-depth provides multiple layers of protection, making it harder for attackers to breach the system."
+  },
+  {
+    "question": "What is the main security concern with buffer overflows?",
+    "options": {
+      "A": "Data loss",
+      "B": "Denial of service",
+      "C": "Privilege escalation and arbitrary code execution",
+      "D": "Increased network latency"
+    },
+    "correct": "C",
+    "explanation": "Buffer overflows can allow attackers to execute arbitrary code or escalate privileges."
+  },
+  {
+    "question": "Which technique BEST supports data integrity for files stored on a server?",
+    "options": {
+      "A": "Symmetric encryption",
+      "B": "Hashing",
+      "C": "Tokenization",
+      "D": "Compression"
+    },
+    "correct": "B",
+    "explanation": "Hashing ensures that data has not been altered by generating a unique fingerprint for file integrity."
+  },
+  {
+    "question": "A TPM (Trusted Platform Module) is used to:",
+    "options": {
+      "A": "Improve processor speed",
+      "B": "Encrypt email communication",
+      "C": "Secure hardware-based cryptographic keys",
+      "D": "Monitor system performance"
+    },
+    "correct": "C",
+    "explanation": "A TPM provides hardware-based security functions like storing cryptographic keys securely."
+  }
+]
+
+

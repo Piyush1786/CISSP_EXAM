@@ -1,0 +1,227 @@
+[
+  {
+    "question": "A security manager is evaluating a third-party vendor for integration into the organization's supply chain. Which of the following is the most effective way to assess the vendor's security posture before establishing a formal relationship?",
+    "options": {
+      "A": "Review the vendor’s incident response plan",
+      "B": "Conduct an on-site security assessment",
+      "C": "Request recent internal vulnerability scan results",
+      "D": "Obtain a copy of the vendor’s cybersecurity policy"
+    },
+    "correct": "B",
+    "explanation": "Conducting an on-site security assessment provides direct insight into the vendor's actual security practices, infrastructure, and policy enforcement, making it the most comprehensive and reliable method of evaluation."
+  },
+  {
+    "question": "A company is experiencing repeated unauthorized access attempts to its internal systems through compromised user credentials. Which of the following should be the FIRST action to mitigate this issue?",
+    "options": {
+      "A": "Disable affected user accounts",
+      "B": "Deploy multi-factor authentication (MFA)",
+      "C": "Enforce password complexity policies",
+      "D": "Notify affected users"
+    },
+    "correct": "B",
+    "explanation": "Deploying MFA significantly reduces the risk of credential-based attacks by requiring a second factor that cannot be compromised as easily as a password."
+  },
+  {
+    "question": "During a business impact analysis (BIA), a department head insists that their application is mission-critical and must be restored within 1 hour of an outage. Which of the following is the best action for the BIA team?",
+    "options": {
+      "A": "Document the request as-is",
+      "B": "Escalate to senior management for clarification",
+      "C": "Assess the actual business impact of downtime",
+      "D": "Update the disaster recovery plan immediately"
+    },
+    "correct": "C",
+    "explanation": "The BIA team must assess the true impact of downtime to objectively determine recovery time objectives (RTOs) rather than rely solely on subjective statements from stakeholders."
+  },
+  {
+    "question": "A company wants to prevent attackers from identifying valid usernames during authentication attempts. Which of the following is the best approach?",
+    "options": {
+      "A": "Enforce account lockout after failed attempts",
+      "B": "Respond with generic error messages",
+      "C": "Use CAPTCHA on login pages",
+      "D": "Implement single sign-on (SSO)"
+    },
+    "correct": "B",
+    "explanation": "Generic error messages prevent attackers from distinguishing between invalid usernames and incorrect passwords, thus mitigating user enumeration attacks."
+  },
+  {
+    "question": "An organization is implementing a new access control model that enforces data handling based on classification levels and user clearances. Which model are they most likely using?",
+    "options": {
+      "A": "Role-Based Access Control (RBAC)",
+      "B": "Discretionary Access Control (DAC)",
+      "C": "Mandatory Access Control (MAC)",
+      "D": "Attribute-Based Access Control (ABAC)"
+    },
+    "correct": "C",
+    "explanation": "Mandatory Access Control is based on labels and clearances, where the system enforces access according to information classification and user authorization levels."
+  },
+  {
+    "question": "A development team pushes new code to production weekly. A recent change caused a major outage. What should the security team recommend to prevent such issues?",
+    "options": {
+      "A": "Reduce code deployment frequency",
+      "B": "Implement a change control process",
+      "C": "Enforce code comments and documentation",
+      "D": "Require encryption of all application data"
+    },
+    "correct": "B",
+    "explanation": "A formal change control process ensures that all code changes are properly reviewed, tested, and approved before deployment, reducing the risk of outages."
+  },
+  {
+    "question": "While conducting a penetration test, the testers discover that outdated software is running on a critical server. What is the MOST appropriate course of action for the penetration testers?",
+    "options": {
+      "A": "Exploit the vulnerability to demonstrate risk",
+      "B": "Immediately patch the software",
+      "C": "Document the finding and report to the client",
+      "D": "Ignore it since exploitation was not authorized"
+    },
+    "correct": "C",
+    "explanation": "Penetration testers must operate within scope and report vulnerabilities without taking unauthorized actions such as patching or exploitation unless explicitly permitted."
+  },
+  {
+    "question": "A government agency requires that employees cannot access classified documents beyond their clearance level. Which of the following mechanisms should be implemented?",
+    "options": {
+      "A": "Need-to-know",
+      "B": "Role-based access control",
+      "C": "Separation of duties",
+      "D": "Mandatory vacation"
+    },
+    "correct": "A",
+    "explanation": "The need-to-know principle ensures users only access information necessary for their job functions, even if they hold the required clearance."
+  },
+  {
+    "question": "An e-commerce platform experiences a distributed denial of service (DDoS) attack during a holiday sale. Which of the following controls would best mitigate this risk?",
+    "options": {
+      "A": "Application firewall",
+      "B": "Web proxy",
+      "C": "Content delivery network (CDN)",
+      "D": "Rate limiting on the database"
+    },
+    "correct": "C",
+    "explanation": "A CDN can absorb and mitigate DDoS traffic by distributing load and caching content closer to users, reducing the impact on the origin server."
+  },
+  {
+    "question": "A security administrator notices a large amount of outbound traffic from a server known to host sensitive data. What is the FIRST step to take?",
+    "options": {
+      "A": "Disconnect the server from the network",
+      "B": "Alert senior management",
+      "C": "Collect system logs",
+      "D": "Initiate a forensic investigation"
+    },
+    "correct": "A",
+    "explanation": "Disconnecting the server prevents further data exfiltration or spread of a potential breach. Investigation and forensics can follow after containment."
+  },
+  
+  {
+    "question": "An organization is developing a disaster recovery plan. Which of the following metrics is MOST critical when determining the amount of data loss acceptable to the business in the event of a disaster?",
+    "options": {
+      "A": "Recovery Point Objective (RPO)",
+      "B": "Recovery Time Objective (RTO)",
+      "C": "Mean Time to Restore (MTTR)",
+      "D": "Maximum Tolerable Downtime (MTD)"
+    },
+    "correct": "A",
+    "explanation": "RPO defines the maximum tolerable period in which data might be lost due to a major incident. It directly relates to how often backups should be taken."
+  },
+  {
+    "question": "A company has suffered a data breach due to a misconfigured Amazon S3 bucket. What is the MOST appropriate immediate corrective action?",
+    "options": {
+      "A": "Encrypt all data at rest",
+      "B": "Enable versioning for S3 buckets",
+      "C": "Restrict public access and review bucket policies",
+      "D": "Migrate data to a more secure provider"
+    },
+    "correct": "C",
+    "explanation": "Restricting public access and correcting bucket policies immediately limits exposure. Misconfigurations like public access are a common cause of cloud breaches."
+  },
+  {
+    "question": "During a forensic investigation of a suspected insider threat, which of the following steps should be taken FIRST to ensure evidence integrity?",
+    "options": {
+      "A": "Isolate the system from the network",
+      "B": "Start log analysis immediately",
+      "C": "Create a backup of user files",
+      "D": "Notify law enforcement"
+    },
+    "correct": "A",
+    "explanation": "Isolating the system prevents further tampering and preserves the current state of evidence. It’s a crucial first step in digital forensics."
+  },
+  {
+    "question": "A multinational company is deploying a centralized identity and access management solution. Which of the following considerations is MOST critical in ensuring secure authentication across international sites?",
+    "options": {
+      "A": "Compliance with local data protection laws",
+      "B": "Standardization of email addresses",
+      "C": "Time zone synchronization",
+      "D": "User interface localization"
+    },
+    "correct": "A",
+    "explanation": "International identity systems must comply with local regulations like GDPR or LGPD. Violating these can result in legal penalties and breach of user trust."
+  },
+  {
+    "question": "The CISO is planning to implement a data loss prevention (DLP) solution for endpoints and emails. What should be done FIRST?",
+    "options": {
+      "A": "Configure keyword-based content filters",
+      "B": "Perform a data classification exercise",
+      "C": "Implement endpoint encryption",
+      "D": "Block all outbound attachments temporarily"
+    },
+    "correct": "B",
+    "explanation": "Before applying DLP controls, data must be classified so the system knows what is sensitive. Without classification, DLP is blind."
+  },
+  {
+    "question": "A security analyst discovers suspicious outbound traffic to an IP address located in a foreign country. What should be the analyst’s FIRST action?",
+    "options": {
+      "A": "Notify legal and compliance teams",
+      "B": "Perform a full malware scan on the endpoint",
+      "C": "Check if the IP is part of an existing threat intelligence feed",
+      "D": "Block the IP address at the firewall"
+    },
+    "correct": "C",
+    "explanation": "Checking if the IP address is known malicious helps validate whether the traffic is part of an attack or legitimate communication. This step informs further actions."
+  },
+  {
+    "question": "Which of the following best illustrates the concept of due care in an enterprise security environment?",
+    "options": {
+      "A": "Encrypting sensitive files with AES-256",
+      "B": "Conducting annual security awareness training",
+      "C": "Performing regular risk assessments and acting on findings",
+      "D": "Documenting all system changes thoroughly"
+    },
+    "correct": "C",
+    "explanation": "Due care refers to taking reasonable actions to prevent harm. Risk assessments followed by corrective actions exemplify responsible security management."
+  },
+  {
+    "question": "An e-commerce platform processes payment information. Which of the following BEST ensures that customer payment data is secure during transit?",
+    "options": {
+      "A": "Tokenization",
+      "B": "SSL/TLS encryption",
+      "C": "Storing data in encrypted databases",
+      "D": "Multifactor authentication"
+    },
+    "correct": "B",
+    "explanation": "SSL/TLS encrypts data during transmission, protecting it from interception. Tokenization and encryption at rest are important but address different stages."
+  },
+  {
+    "question": "During the integration of a third-party HR system, which security concern is MOST critical to address?",
+    "options": {
+      "A": "System uptime during integration",
+      "B": "Integration cost and licensing",
+      "C": "Privileged access and API permissions",
+      "D": "Training the HR team on UI changes"
+    },
+    "correct": "C",
+    "explanation": "Third-party integrations often require API access. Ensuring that the permissions granted are limited and controlled is key to maintaining security."
+  },
+  {
+    "question": "Which of the following is the BEST indicator that an organization is following a mature patch management process?",
+    "options": {
+      "A": "All systems are automatically updated weekly",
+      "B": "There is a documented SLA for patch deployment after assessment",
+      "C": "Users can install updates at their discretion",
+      "D": "Patch deployment is outsourced to a third party"
+    },
+    "correct": "B",
+    "explanation": "A mature patch process includes assessment, prioritization, and timely deployment per policy. Documented SLAs ensure accountability and track performance."
+  }
+]
+
+
+
+

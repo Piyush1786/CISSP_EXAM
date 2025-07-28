@@ -1,0 +1,223 @@
+[
+  {
+    "question": "Which of the following is the MOST secure method of authentication?",
+    "options": {
+      "A": "Username and password",
+      "B": "Smart card only",
+      "C": "Biometric scan",
+      "D": "Smart card with PIN"
+    },
+    "correct": "D",
+    "explanation": "Combining smart cards with PINs provides two-factor authentication—something you have and something you know—making it more secure than single methods."
+  },
+  {
+    "question": "What is the PRIMARY purpose of Role-Based Access Control (RBAC)?",
+    "options": {
+      "A": "To prevent data leakage",
+      "B": "To assign permissions based on job functions",
+      "C": "To manage user passwords",
+      "D": "To log access attempts"
+    },
+    "correct": "B",
+    "explanation": "RBAC assigns access rights based on users' roles or job functions, helping enforce least privilege."
+  },
+  {
+    "question": "Which of the following access control models uses labels to determine access?",
+    "options": {
+      "A": "Discretionary Access Control (DAC)",
+      "B": "Role-Based Access Control (RBAC)",
+      "C": "Mandatory Access Control (MAC)",
+      "D": "Rule-Based Access Control"
+    },
+    "correct": "C",
+    "explanation": "MAC uses security labels and classifications to enforce access policies, making it stricter than DAC or RBAC."
+  },
+  {
+    "question": "What is the PRIMARY goal of the principle of least privilege?",
+    "options": {
+      "A": "Improve usability",
+      "B": "Enhance logging",
+      "C": "Minimize risk",
+      "D": "Reduce cost"
+    },
+    "correct": "C",
+    "explanation": "The principle of least privilege limits access rights for users to only what is necessary, reducing the attack surface."
+  },
+  {
+    "question": "Which of the following is an example of multifactor authentication?",
+    "options": {
+      "A": "Username and password",
+      "B": "Password and security question",
+      "C": "Smart card and fingerprint",
+      "D": "PIN and password"
+    },
+    "correct": "C",
+    "explanation": "Multifactor authentication requires two different types of authentication factors—something you have (smart card) and something you are (fingerprint)."
+  },
+  {
+    "question": "Which of the following ensures users are still authorized to access a system?",
+    "options": {
+      "A": "Identification",
+      "B": "Authentication",
+      "C": "Authorization",
+      "D": "Access recertification"
+    },
+    "correct": "D",
+    "explanation": "Access recertification involves verifying that users’ access privileges are still appropriate over time."
+  },
+  {
+    "question": "What is the BEST control to prevent privilege escalation attacks?",
+    "options": {
+      "A": "Audit logging",
+      "B": "Least privilege",
+      "C": "Password rotation",
+      "D": "Multifactor authentication"
+    },
+    "correct": "B",
+    "explanation": "Least privilege limits users' access, reducing the risk of privilege escalation."
+  },
+  {
+    "question": "In Identity Federation, what is the role of the identity provider?",
+    "options": {
+      "A": "Stores encryption keys",
+      "B": "Manages role assignments",
+      "C": "Authenticates users",
+      "D": "Logs user activity"
+    },
+    "correct": "C",
+    "explanation": "The identity provider (IdP) is responsible for authenticating users and providing assertions to service providers."
+  },
+  {
+    "question": "Which biometric measure is considered the MOST intrusive?",
+    "options": {
+      "A": "Fingerprint",
+      "B": "Iris scan",
+      "C": "Facial recognition",
+      "D": "Retina scan"
+    },
+    "correct": "D",
+    "explanation": "Retina scans require close proximity and are seen as invasive, making them the most intrusive option listed."
+  },
+  {
+    "question": "What access control model gives users the MOST flexibility?",
+    "options": {
+      "A": "Mandatory Access Control",
+      "B": "Discretionary Access Control",
+      "C": "Role-Based Access Control",
+      "D": "Rule-Based Access Control"
+    },
+    "correct": "B",
+    "explanation": "DAC allows data owners to determine access, offering high flexibility compared to other models."
+  },
+  {
+    "question": "Which of the following would BEST help detect account misuse?",
+    "options": {
+      "A": "Password expiration policies",
+      "B": "Mandatory vacation policies",
+      "C": "Access control lists",
+      "D": "Multifactor authentication"
+    },
+    "correct": "B",
+    "explanation": "Mandatory vacations help reveal misuse by allowing alternate users or auditors to spot irregularities in behavior or access."
+  },
+  {
+    "question": "Which protocol is used for cross-domain single sign-on?",
+    "options": {
+      "A": "Kerberos",
+      "B": "LDAP",
+      "C": "RADIUS",
+      "D": "SAML"
+    },
+    "correct": "D",
+    "explanation": "SAML (Security Assertion Markup Language) is widely used for web-based single sign-on across different domains."
+  },
+  {
+    "question": "In an IAM system, what is provisioning?",
+    "options": {
+      "A": "Backing up user profiles",
+      "B": "Creating and managing user accounts and access rights",
+      "C": "Monitoring user activity",
+      "D": "Logging user login times"
+    },
+    "correct": "B",
+    "explanation": "Provisioning involves assigning user accounts and defining access privileges based on role or function."
+  },
+  {
+    "question": "What is the main risk of using biometric authentication?",
+    "options": {
+      "A": "High error rates",
+      "B": "User resistance",
+      "C": "Inability to revoke",
+      "D": "System compatibility"
+    },
+    "correct": "C",
+    "explanation": "Biometric data, like fingerprints, cannot be changed if compromised, unlike passwords or tokens."
+  },
+  {
+    "question": "What is the PRIMARY advantage of Single Sign-On (SSO)?",
+    "options": {
+      "A": "Improves password strength",
+      "B": "Enforces encryption",
+      "C": "Improves user convenience and reduces password fatigue",
+      "D": "Eliminates need for authentication"
+    },
+    "correct": "C",
+    "explanation": "SSO simplifies authentication, reducing password fatigue and improving user productivity."
+  },
+  {
+    "question": "What type of attack does Time-of-Check to Time-of-Use (TOCTOU) exploit?",
+    "options": {
+      "A": "Race condition",
+      "B": "Phishing",
+      "C": "Social engineering",
+      "D": "Man-in-the-middle"
+    },
+    "correct": "A",
+    "explanation": "TOCTOU attacks exploit timing vulnerabilities, allowing changes to data between validation and use."
+  },
+  {
+    "question": "Which of the following BEST ensures accountability in access control?",
+    "options": {
+      "A": "Strong passwords",
+      "B": "Audit logging",
+      "C": "Group accounts",
+      "D": "Mandatory access control"
+    },
+    "correct": "B",
+    "explanation": "Audit logging enables tracking of user actions, ensuring accountability."
+  },
+  {
+    "question": "What is the PRIMARY purpose of access control lists (ACLs)?",
+    "options": {
+      "A": "Track failed login attempts",
+      "B": "Authenticate users",
+      "C": "Define access permissions to resources",
+      "D": "Log audit trails"
+    },
+    "correct": "C",
+    "explanation": "ACLs define which users or systems can access specific resources and what operations they can perform."
+  },
+  {
+    "question": "Which attack is MOST likely to occur when session tokens are not rotated?",
+    "options": {
+      "A": "SQL Injection",
+      "B": "Session hijacking",
+      "C": "Cross-site scripting",
+      "D": "Privilege escalation"
+    },
+    "correct": "B",
+    "explanation": "Failing to rotate session tokens increases the risk of session hijacking."
+  },
+  {
+    "question": "What does an Identity Provider (IdP) typically issue during federated authentication?",
+    "options": {
+      "A": "Security certificate",
+      "B": "Authentication assertion",
+      "C": "Access control list",
+      "D": "Policy enforcement point"
+    },
+    "correct": "B",
+    "explanation": "In federated identity systems, the IdP authenticates users and issues assertions to service providers."
+  }
+]
+

@@ -1,0 +1,223 @@
+[
+  {
+    "question": "Which of the following protocols operates at the network layer and provides no guarantee of message delivery?",
+    "options": {
+      "A": "TCP",
+      "B": "IP",
+      "C": "UDP",
+      "D": "HTTP"
+    },
+    "correct": "B",
+    "explanation": "IP (Internet Protocol) operates at the network layer and is connectionless, offering no guarantee of delivery, order, or duplicate protection."
+  },
+  {
+    "question": "Which technology is MOST effective in preventing ARP spoofing attacks?",
+    "options": {
+      "A": "Firewalls",
+      "B": "Network segmentation",
+      "C": "Dynamic ARP Inspection",
+      "D": "Port mirroring"
+    },
+    "correct": "C",
+    "explanation": "Dynamic ARP Inspection (DAI) validates ARP packets on a network to prevent ARP spoofing attacks."
+  },
+  {
+    "question": "A VPN connection using IPsec in tunnel mode primarily protects which of the following?",
+    "options": {
+      "A": "The payload only",
+      "B": "Only the IP headers",
+      "C": "The entire packet including headers",
+      "D": "Traffic from firewall logs"
+    },
+    "correct": "C",
+    "explanation": "Tunnel mode encrypts the entire IP packet, including headers, providing confidentiality for the entire communication."
+  },
+  {
+    "question": "What is the primary security goal of implementing a DMZ in network architecture?",
+    "options": {
+      "A": "Improving performance",
+      "B": "Reducing latency",
+      "C": "Segregating public-facing services from internal networks",
+      "D": "Eliminating all external access"
+    },
+    "correct": "C",
+    "explanation": "A DMZ isolates publicly accessible systems (e.g., web servers) from the internal network to reduce risk."
+  },
+  {
+    "question": "Which of the following wireless security protocols offers the strongest encryption?",
+    "options": {
+      "A": "WEP",
+      "B": "WPA",
+      "C": "WPA2",
+      "D": "WPA3"
+    },
+    "correct": "D",
+    "explanation": "WPA3 provides the latest and most robust security features, including individualized encryption and stronger key management."
+  },
+  {
+    "question": "What is the primary function of a firewall in network security?",
+    "options": {
+      "A": "Detect malware",
+      "B": "Encrypt traffic",
+      "C": "Enforce access control between network segments",
+      "D": "Prevent DoS attacks"
+    },
+    "correct": "C",
+    "explanation": "A firewall filters incoming and outgoing traffic based on pre-defined security rules to enforce network segmentation."
+  },
+  {
+    "question": "Which of the following is a Layer 2 security concern in the OSI model?",
+    "options": {
+      "A": "MAC address spoofing",
+      "B": "IP spoofing",
+      "C": "Session hijacking",
+      "D": "SQL injection"
+    },
+    "correct": "A",
+    "explanation": "MAC address spoofing occurs at Layer 2, allowing an attacker to impersonate another device on the same LAN."
+  },
+  {
+    "question": "Which port does HTTPS use by default?",
+    "options": {
+      "A": "443",
+      "B": "80",
+      "C": "21",
+      "D": "22"
+    },
+    "correct": "A",
+    "explanation": "HTTPS uses TCP port 443 for secure communication over SSL/TLS."
+  },
+  {
+    "question": "In a zero trust model, which principle is most emphasized?",
+    "options": {
+      "A": "Encrypt everything",
+      "B": "Trust but verify",
+      "C": "Verify everything, trust nothing",
+      "D": "Build strong perimeters"
+    },
+    "correct": "C",
+    "explanation": "Zero trust architecture assumes no implicit trust and requires verification at every access attempt."
+  },
+  {
+    "question": "Which tool is used to analyze and capture network packets for troubleshooting and security analysis?",
+    "options": {
+      "A": "Nmap",
+      "B": "Wireshark",
+      "C": "Burp Suite",
+      "D": "Metasploit"
+    },
+    "correct": "B",
+    "explanation": "Wireshark is a packet analyzer used to capture and interactively browse traffic running on a computer network."
+  },
+  {
+    "question": "What type of attack exploits TCP's three-way handshake process?",
+    "options": {
+      "A": "Phishing",
+      "B": "DNS poisoning",
+      "C": "SYN flood",
+      "D": "ARP poisoning"
+    },
+    "correct": "C",
+    "explanation": "SYN flood attacks abuse the TCP handshake by sending repeated SYN requests without completing the handshake, exhausting resources."
+  },
+  {
+    "question": "Which of the following best describes the function of a proxy server?",
+    "options": {
+      "A": "Encrypts traffic end-to-end",
+      "B": "Filters and forwards client requests to servers",
+      "C": "Monitors DNS queries",
+      "D": "Scans files for viruses"
+    },
+    "correct": "B",
+    "explanation": "A proxy server intermediates between client and server, providing filtering, logging, and caching capabilities."
+  },
+  {
+    "question": "Which of the following protocols is commonly used for secure remote administration?",
+    "options": {
+      "A": "Telnet",
+      "B": "SSH",
+      "C": "FTP",
+      "D": "SNMP"
+    },
+    "correct": "B",
+    "explanation": "SSH (Secure Shell) provides encrypted communication for secure remote command-line access."
+  },
+  {
+    "question": "Which layer of the OSI model is responsible for reliable transmission and error correction?",
+    "options": {
+      "A": "Network layer",
+      "B": "Transport layer",
+      "C": "Data link layer",
+      "D": "Application layer"
+    },
+    "correct": "B",
+    "explanation": "The transport layer ensures reliable transmission using protocols like TCP, which include error detection and correction."
+  },
+  {
+    "question": "Which of the following best describes VLAN hopping?",
+    "options": {
+      "A": "Intercepting wireless traffic",
+      "B": "Redirecting DNS traffic",
+      "C": "Exploiting switch configurations to access unauthorized VLANs",
+      "D": "Using an open proxy"
+    },
+    "correct": "C",
+    "explanation": "VLAN hopping occurs when an attacker gains access to unauthorized VLANs by exploiting switch configuration flaws."
+  },
+  {
+    "question": "What is the main purpose of Network Access Control (NAC)?",
+    "options": {
+      "A": "Scan for vulnerabilities",
+      "B": "Block known malware",
+      "C": "Ensure endpoint compliance before granting access",
+      "D": "Monitor network traffic in real time"
+    },
+    "correct": "C",
+    "explanation": "NAC systems check devices for compliance (e.g., antivirus, updates) before granting access to the network."
+  },
+  {
+    "question": "Which of the following protocols is primarily used to resolve human-readable names into IP addresses?",
+    "options": {
+      "A": "DHCP",
+      "B": "DNS",
+      "C": "SMTP",
+      "D": "ARP"
+    },
+    "correct": "B",
+    "explanation": "DNS (Domain Name System) resolves domain names into IP addresses."
+  },
+  {
+    "question": "What is a major risk of using Telnet for remote administration?",
+    "options": {
+      "A": "Limited command support",
+      "B": "High latency",
+      "C": "Plaintext transmission of credentials",
+      "D": "Unreliable session termination"
+    },
+    "correct": "C",
+    "explanation": "Telnet transmits all data in plaintext, including usernames and passwords, making it insecure for remote administration."
+  },
+  {
+    "question": "Which protocol uses a hierarchical, distributed database for resolving hostnames?",
+    "options": {
+      "A": "DHCP",
+      "B": "LDAP",
+      "C": "DNS",
+      "D": "SNMP"
+    },
+    "correct": "C",
+    "explanation": "DNS is a hierarchical, distributed system for translating hostnames to IP addresses."
+  },
+  {
+    "question": "Which network device operates at Layer 3 of the OSI model?",
+    "options": {
+      "A": "Hub",
+      "B": "Switch",
+      "C": "Router",
+      "D": "Bridge"
+    },
+    "correct": "C",
+    "explanation": "Routers operate at Layer 3 (network layer), making decisions based on IP addresses."
+  }
+]
+

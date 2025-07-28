@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Security Quiz Portal</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="start-screen" class="card show">
+    <h1>Security Quiz Portal</h1>
+    <button id="mixed-btn">Start Mixed Quiz</button>
+    <button id="scenario-btn">Scenario-based Quiz</button>
+    <button id="domain-btn">Domain-specific Quiz</button>
+    <button id="study-btn">Study Material</button>
+  </div>
+
+  <div id="domain-selection" class="card">
+    <h2>Select Domain</h2>
+    <select id="domain-dropdown">
+      <option value="questions.json">General Security</option>
+      <option value="risk.json">Risk Management</option>
+      <option value="Security_Arch.json">Security Architecture</option>
+      <option value="Security_ops.json">Security Operations</option>
+      <option value="Security_Asses.json">Security Assessment</option>
+      <option value="software.json">Secure Software</option>
+      <option value="scenario.json">Scenarios</option>
+      <option value="id_access.json">IAM</option>
+      <option value="comm_net.json">Communication and Network</option>
+      <option value="Asset_security.json">Asset and Security</option>
+    </select>
+    <button id="start-domain-btn">Start Domain Quiz</button>
+    <button id="back-btn-domain" class="secondary-btn">Back</button>
+  </div>
+
+  <div id="quiz-container" class="card">
+    <button id="global-back-btn" class="secondary-btn top-back-btn" title="Back to Start">&#8592; Back</button>
+    <div id="question-area"></div>
+    <div id="navigation"></div>
+    <button id="submit-btn">Submit Quiz</button>
+    <div id="results"></div>
+    <button id="back-btn-quiz" class="secondary-btn">Back to Start</button>
+  </div>
+
+  <div id="study-section" class="card">
+    <h2>Study Material</h2>
+    <div id="study-content">
+      <h3>Cybersecurity Study Materials</h3>
+      <p>You can download or view the following PDFs:</p>
+      <ul>
+        <li><a href="Cybersecurity.pdf" target="_blank" rel="noopener noreferrer">Cybersecurity.pdf</a></li>
+        <li><a href="CISSP.pdf" target="_blank" rel="noopener noreferrer">CISSP.pdf</a></li>
+      </ul>
+      <p>Click the file name above to open it in a new tab or right-click and select "Save As" to download.</p>
+    </div>
+    <button id="back-btn-study" class="secondary-btn">Back</button>
+  </div>
+
+  <footer>
+    <p>&copy; 2024 Security Quiz. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+

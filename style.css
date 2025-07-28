@@ -1,0 +1,328 @@
+/* === Modern Security Quiz Portal Styling === */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(115deg, #6dd5ed, #2193b0 80%);
+  font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #222e3b;
+  min-height: 100vh;
+}
+
+/* Card Container */
+.card {
+  display: none;
+  background: rgba(255,255,255,0.99);
+  max-width: 650px;
+  margin: 60px auto 30px;
+  border-radius: 26px;
+  box-shadow: 0 12px 38px rgba(30,90,160,0.16);
+  padding: 45px 38px 36px;
+  animation: fadeIn 0.9s cubic-bezier(.5,.7,0,1.2);
+}
+
+.card.show { display: block; }
+
+h1, h2, h3 {
+  text-align: center;
+  margin-top: 0;
+  letter-spacing: 1px;
+}
+
+h1 {
+  color: #1764a7;
+  margin-bottom: 28px;
+}
+
+h2, h3 {
+  color: #2193b0;
+  margin-bottom: 20px;
+}
+
+/* Buttons + Select */
+button, select {
+  font-family: inherit;
+  font-size: 1.13em;
+  font-weight: 600;
+  padding: 13px 32px;
+  margin: 22px auto 10px auto;
+  border: none;
+  border-radius: 26px;
+  background: linear-gradient(90deg, #2196f3 60%, #43e97b 100%);
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0 1px 14px 0 rgba(68,183,210,.13);
+  transition: background 0.3s, transform 0.18s, box-shadow 0.22s;
+  display: block;
+  text-align: center;
+}
+
+button:hover:not(.secondary-btn),
+button:focus:not(.secondary-btn) {
+  background: linear-gradient(90deg, #43e97b 30%, #2293ef 100%);
+  transform: scale(1.04) translateY(-2px);
+  box-shadow: 0 7px 24px 0 rgba(50,230,159,0.14);
+}
+
+.secondary-btn {
+  background: #e0ecf4;
+  color: #197195;
+  border: 1.2px solid #b1bee7;
+  font-weight: 500;
+  margin-top: 5px;
+  transition: background 0.23s;
+}
+
+.secondary-btn:hover, .secondary-btn:focus {
+  background: #c8e6fa;
+  color: #105a8e;
+}
+
+select {
+  width: 100%;
+  max-width: 440px;
+  padding: 10px;
+  cursor: pointer;
+  background: #f8fafc;
+  color: #1764a7;
+  margin-top: 10px;
+}
+
+/* Question and Option Styles */
+#question-area {
+  margin: 0 0 23px 0;
+  max-width: 610px;
+  padding: 0 8px;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.option {
+  font-size: 1.11em;
+  background: #f8fafc;
+  border: 2px solid #e3eaf2;
+  border-radius: 12px;
+  padding: 18px 22px;
+  margin: 14px 0;
+  cursor: pointer;
+  user-select: none;
+  box-shadow: 0 1px 7px rgba(33,150,243,.045);
+  transition: all 0.18s cubic-bezier(.5,1.4,.6,1.2);
+  display: block;
+}
+
+.option:hover, .option:focus {
+  background: #e3f2fd;
+  border-color: #29b6f6;
+  transform: scale(1.018);
+  box-shadow: 0 9px 28px rgba(22,180,243,.07);
+}
+
+.option.selected {
+  border-color: #43e97b;
+  background: #e4ffe1;
+  font-weight: 600;
+}
+
+.option.correct {
+  border-color: #3bdc66;
+  background: #defcd5;
+  color: #219652;
+}
+
+.option.incorrect {
+  border-color: #f05434;
+  background: #fff0ef;
+  color: #b71c1c;
+}
+
+/* Navigation */
+#navigation {
+  margin-top: 28px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 13px;
+  justify-content: center;
+}
+
+#navigation button {
+  background: #e3f3fa;
+  color: #388ba2;
+  border-radius: 50%;
+  border: 2px solid #b3b3b3;
+  width: 43px;
+  height: 43px;
+  font-weight: 700;
+  font-size: 1.15em;
+  transition: all 0.17s;
+}
+
+#navigation button.answered {
+  background: linear-gradient(90deg, #43e97b 35%, #38f9d7 100%);
+  color: #fff;
+  border-color: #16cd8a;
+}
+
+#navigation button.current {
+  border: 2.4px solid #1565c0;
+  background: #e3f2fd;
+  color: #1565c0;
+  transform: scale(1.09);
+  font-size: 1.23em;
+}
+
+/* Results and Explanations */
+#results {
+  margin-top: 17px;
+  font-size: 1.28em;
+  font-weight: 700;
+  color: #299485;
+  text-align: center;
+}
+
+#quiz-explanations {
+  max-width: 650px;
+  margin: 24px auto 30px auto;
+  padding: 0 14px;
+}
+
+#quiz-explanations div {
+  background: #fff8e5;
+  border: 1.5px dashed #f4b942;
+  padding: 17px 20px 13px 20px;
+  margin-bottom: 22px;
+  border-radius: 12px;
+  color: #444;
+  font-size: 1.01em;
+}
+
+/* Study Material List Styling */
+#study-content ul {
+  list-style: disc inside;
+  max-width: 400px;
+  margin: 0 auto 22px auto;
+  padding-left: 0;
+}
+
+#study-content ul li {
+  margin: 12px 0;
+  font-size: 1.14em;
+}
+
+#study-content ul li a {
+  color: #2196f3;
+  font-weight: 600;
+  border-bottom: 2px solid transparent;
+  text-decoration: none;
+  transition: border-color 0.22s;
+}
+
+#study-content ul li a:hover,
+#study-content ul li a:focus {
+  border-color: #43e97b;
+  outline: none;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  font-size: 0.97em;
+  margin-top: 35px;
+  color: #d5eaf5;
+  letter-spacing: .32px;
+}
+
+/* Responsive */
+@media (max-width: 720px) {
+  .card {
+    padding: 18px 4vw 20px 4vw;
+    margin: 10vw 0 7vw 0;
+  }
+  #question-area, #quiz-explanations { padding: 0 3px; }
+  h1{font-size: 1.43em;}
+}
+
+/* Animations */
+@keyframes fadeIn {
+  0% { opacity: 0; transform: translateY(50px);}
+  100% { opacity: 1; transform: translateY(0);}
+}
+
+
+#navigation button.wrong {
+  background: #fff1f1;
+  color: #e53935 !important;
+  border-color: #e53935 !important;
+  font-weight: 700;
+  animation: shake 0.4s;
+}
+@keyframes shake {
+  0% {transform: translateX(0);}
+  20% {transform: translateX(-2px);}
+  40% {transform: translateX(2px);}
+  60% {transform: translateX(-2px);}
+  80% {transform: translateX(2px);}
+  100% {transform: translateX(0);}
+}
+#quiz-container.card {
+  position: relative; /* Needed for absolute child positioning */
+}
+
+.global-back-btn {
+  position: fixed;
+  top: 22px;
+  left: 22px;
+  z-index: 1001;
+  padding: 9px 26px 9px 16px;
+  font-size: 1em;
+  background: #e0ecf4;
+  color: #1764a7;
+  border: 1.5px solid #b1bee7;
+  border-radius: 22px;
+  box-shadow: 0 1px 8px rgba(68,183,210,.10);
+  margin: 0;
+  cursor: pointer;
+  transition: background 0.18s, color 0.15s, border 0.18s;
+}
+.global-back-btn:hover, .global-back-btn:focus {
+  background: #b9d8f8;
+  color: #105a8e;
+  border-color: #2196f3;
+}
+@media (max-width: 600px) {
+  .global-back-btn {
+    top: 8px;
+    left: 4px;
+    font-size: 0.96em;
+    padding: 7px 16px 7px 10px;
+  }
+}
+.bg-overlay {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw; height: 100vh;
+  background: rgba(0,0,0,0.32); /* Adjust opacity as needed */
+  z-index: 0;
+  pointer-events: none;
+}
+.card, .secondary-btn, #study-content, #navigation, #results, #quiz-explanations {
+  position: relative;
+  z-index: 1;
+}
+body {
+  background: url('background.png') no-repeat center center fixed;
+  background-size: cover;
+  min-height: 100vh;
+  font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #222e3b;
+}
+

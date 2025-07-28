@@ -1,0 +1,223 @@
+[
+  {
+    "question": "Which of the following is a primary benefit of using a Software Development Life Cycle (SDLC)?",
+    "options": {
+      "A": "It removes the need for quality assurance testing",
+      "B": "It standardizes and structures the development process",
+      "C": "It increases programming language efficiency",
+      "D": "It limits the use of version control"
+    },
+    "correct": "B",
+    "explanation": "The SDLC provides a structured process for developing software, helping to ensure quality, consistency, and security throughout development."
+  },
+  {
+    "question": "What is the primary goal of threat modeling during application development?",
+    "options": {
+      "A": "To implement access control mechanisms",
+      "B": "To identify and mitigate potential security threats",
+      "C": "To ensure compatibility with legacy systems",
+      "D": "To optimize code performance"
+    },
+    "correct": "B",
+    "explanation": "Threat modeling helps developers identify, assess, and mitigate security threats early in the software development process."
+  },
+  {
+    "question": "Which of the following best describes the concept of 'defense in depth' in secure coding practices?",
+    "options": {
+      "A": "Using multiple programming languages in one application",
+      "B": "Applying a single security measure at multiple points",
+      "C": "Layering multiple security controls throughout an application",
+      "D": "Encrypting all input data regardless of its source"
+    },
+    "correct": "C",
+    "explanation": "Defense in depth means using multiple, layered security controls to protect against potential threats and ensure system resilience."
+  },
+  {
+    "question": "Which phase of the SDLC is most appropriate for conducting a security requirements analysis?",
+    "options": {
+      "A": "Design",
+      "B": "Implementation",
+      "C": "Requirements gathering",
+      "D": "Testing"
+    },
+    "correct": "C",
+    "explanation": "Security requirements should be considered during the initial requirements gathering phase to ensure they are built into the system from the start."
+  },
+  {
+    "question": "What is the key security concern in Agile software development practices?",
+    "options": {
+      "A": "Lack of automation",
+      "B": "Rapid release cycles may overlook security requirements",
+      "C": "Use of obsolete languages",
+      "D": "High hardware dependency"
+    },
+    "correct": "B",
+    "explanation": "The fast-paced nature of Agile development may lead to security being overlooked unless explicitly integrated into the process."
+  },
+  {
+    "question": "What does input validation primarily help prevent?",
+    "options": {
+      "A": "Race conditions",
+      "B": "Cross-site scripting (XSS) and SQL injection",
+      "C": "Buffer overflow",
+      "D": "Configuration errors"
+    },
+    "correct": "B",
+    "explanation": "Input validation ensures only properly formatted data enters a system, reducing the risk of injection attacks like XSS and SQL injection."
+  },
+  {
+    "question": "Which type of software testing focuses specifically on the internal logic and structure of the code?",
+    "options": {
+      "A": "Black-box testing",
+      "B": "White-box testing",
+      "C": "Integration testing",
+      "D": "Regression testing"
+    },
+    "correct": "B",
+    "explanation": "White-box testing involves reviewing internal logic, code paths, and structures to identify vulnerabilities and defects."
+  },
+  {
+    "question": "In secure software development, why is least privilege important?",
+    "options": {
+      "A": "To speed up user access to development tools",
+      "B": "To limit user permissions to only what is necessary",
+      "C": "To allow full system access to developers",
+      "D": "To disable encryption modules"
+    },
+    "correct": "B",
+    "explanation": "Least privilege limits users and processes to the minimum level of access necessary, reducing the attack surface."
+  },
+  {
+    "question": "Which term describes unauthorized code added to software to exploit or compromise the system?",
+    "options": {
+      "A": "Logic bomb",
+      "B": "Zero-day",
+      "C": "Backdoor",
+      "D": "Trojan"
+    },
+    "correct": "C",
+    "explanation": "A backdoor is unauthorized code that bypasses normal authentication or security mechanisms to give access to a system."
+  },
+  {
+    "question": "Which secure coding practice helps prevent buffer overflow vulnerabilities?",
+    "options": {
+      "A": "Using object-oriented languages only",
+      "B": "Avoiding recursion",
+      "C": "Bounds checking on arrays and memory buffers",
+      "D": "Minimizing function calls"
+    },
+    "correct": "C",
+    "explanation": "Implementing bounds checking ensures that input data does not exceed buffer sizes, helping to prevent overflows."
+  },
+  {
+    "question": "What is a primary security risk of using third-party libraries in software development?",
+    "options": {
+      "A": "Increased development time",
+      "B": "Higher licensing costs",
+      "C": "Unpatched vulnerabilities",
+      "D": "Lack of source code availability"
+    },
+    "correct": "C",
+    "explanation": "Third-party libraries may contain known vulnerabilities if not properly maintained or updated."
+  },
+  {
+    "question": "Static application security testing (SAST) is best performed during which phase?",
+    "options": {
+      "A": "Design",
+      "B": "Coding",
+      "C": "Production",
+      "D": "Deployment"
+    },
+    "correct": "B",
+    "explanation": "SAST analyzes source code or binaries during development to identify vulnerabilities early."
+  },
+  {
+    "question": "What is the goal of software configuration management in development?",
+    "options": {
+      "A": "Improve user interface performance",
+      "B": "Monitor employee coding speed",
+      "C": "Maintain code version integrity and track changes",
+      "D": "Optimize compiler settings"
+    },
+    "correct": "C",
+    "explanation": "Software configuration management ensures consistency and traceability in code development and changes."
+  },
+  {
+    "question": "What is the purpose of a secure development environment?",
+    "options": {
+      "A": "To provide high internet bandwidth to developers",
+      "B": "To separate development and production environments for security",
+      "C": "To allow users to test software freely",
+      "D": "To eliminate the need for testing"
+    },
+    "correct": "B",
+    "explanation": "Secure development environments prevent unauthorized access and changes to live systems, protecting data and integrity."
+  },
+  {
+    "question": "Which of the following best describes fuzz testing?",
+    "options": {
+      "A": "Manual code review by multiple developers",
+      "B": "Sending invalid or unexpected inputs to an application",
+      "C": "Validating input with regular expressions",
+      "D": "Encrypting all session data"
+    },
+    "correct": "B",
+    "explanation": "Fuzz testing sends random or malformed data to uncover crashes, exceptions, or vulnerabilities in software."
+  },
+  {
+    "question": "Which programming error is most commonly associated with stack-based buffer overflows?",
+    "options": {
+      "A": "Off-by-one error",
+      "B": "Null pointer dereference",
+      "C": "Incorrect algorithm implementation",
+      "D": "Incorrect conditional branching"
+    },
+    "correct": "A",
+    "explanation": "Off-by-one errors allow writes outside the allocated buffer, leading to stack overflows and potential execution of malicious code."
+  },
+  {
+    "question": "What is the primary security purpose of code obfuscation?",
+    "options": {
+      "A": "To reduce the size of compiled software",
+      "B": "To make code execution faster",
+      "C": "To make reverse engineering more difficult",
+      "D": "To ensure compliance with industry standards"
+    },
+    "correct": "C",
+    "explanation": "Obfuscation makes source code harder to read, helping protect intellectual property and reduce exploitation risk."
+  },
+  {
+    "question": "Which of the following is a common tool for dynamic application security testing (DAST)?",
+    "options": {
+      "A": "Burp Suite",
+      "B": "JIRA",
+      "C": "Eclipse IDE",
+      "D": "Wireshark"
+    },
+    "correct": "A",
+    "explanation": "Burp Suite is a widely used DAST tool that tests running web applications for security flaws."
+  },
+  {
+    "question": "Which of the following activities is essential after a secure software release?",
+    "options": {
+      "A": "Deleting all backups",
+      "B": "Publishing source code",
+      "C": "Conducting post-deployment security monitoring",
+      "D": "Disabling the firewall"
+    },
+    "correct": "C",
+    "explanation": "Ongoing monitoring helps detect threats, vulnerabilities, or unexpected behavior in deployed software."
+  },
+  {
+    "question": "Which of the following best mitigates the risk of hardcoded credentials in source code?",
+    "options": {
+      "A": "Using longer passwords",
+      "B": "Storing credentials in environment variables or vaults",
+      "C": "Encrypting passwords using MD5",
+      "D": "Recompiling the application regularly"
+    },
+    "correct": "B",
+    "explanation": "Externalizing credentials to secure vaults or environment variables reduces risk exposure from hardcoded secrets."
+  }
+]
+

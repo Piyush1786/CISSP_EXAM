@@ -1,0 +1,223 @@
+[
+  {
+    "question": "(1) During a security assessment, a tester is allowed to have full access to systems and network configurations. What type of testing is being conducted?",
+    "options": {
+      "A": "Black-box testing",
+      "B": "White-box testing",
+      "C": "Gray-box testing",
+      "D": "Blind testing"
+    },
+    "correct": "B",
+    "explanation": "White-box testing gives the tester full visibility into the internal workings of systems and infrastructure, allowing detailed analysis."
+  },
+  {
+    "question": "(2) Which of the following is a key objective of conducting a security audit?",
+    "options": {
+      "A": "To identify zero-day vulnerabilities",
+      "B": "To generate new threat intelligence",
+      "C": "To validate compliance with policies and standards",
+      "D": "To perform real-time monitoring"
+    },
+    "correct": "C",
+    "explanation": "Audits focus on validating that systems and processes are compliant with defined policies, regulations, and standards."
+  },
+  {
+    "question": "(3) What is the primary purpose of vulnerability scanning?",
+    "options": {
+      "A": "To block malicious network traffic",
+      "B": "To identify known security weaknesses",
+      "C": "To update anti-virus signatures",
+      "D": "To install patches automatically"
+    },
+    "correct": "B",
+    "explanation": "Vulnerability scanning helps identify known security flaws in systems, software, and configurations."
+  },
+  {
+    "question": "(4) Which testing technique simulates a real-world cyberattack to evaluate system defenses?",
+    "options": {
+      "A": "Security audit",
+      "B": "Static code analysis",
+      "C": "Penetration testing",
+      "D": "Configuration review"
+    },
+    "correct": "C",
+    "explanation": "Penetration testing mimics real-world attacks to find exploitable vulnerabilities and assess defense mechanisms."
+  },
+  {
+    "question": "(5) What role does a red team typically play in a security assessment?",
+    "options": {
+      "A": "Evaluating compliance with ISO standards",
+      "B": "Providing legal oversight",
+      "C": "Simulating attackers to test defenses",
+      "D": "Conducting internal audits"
+    },
+    "correct": "C",
+    "explanation": "Red teams simulate adversaries to test how well the organization can detect and respond to real attacks."
+  },
+  {
+    "question": "(6) Which of the following is an example of dynamic application security testing (DAST)?",
+    "options": {
+      "A": "Analyzing application source code",
+      "B": "Reviewing database schema",
+      "C": "Scanning a running web application for vulnerabilities",
+      "D": "Assessing encryption algorithms"
+    },
+    "correct": "C",
+    "explanation": "DAST involves testing applications while they are running, often from the outside-in, to discover vulnerabilities."
+  },
+  {
+    "question": "(7) What is the main focus of code review during software testing?",
+    "options": {
+      "A": "Validating input/output formats",
+      "B": "Ensuring consistent coding style",
+      "C": "Identifying logic and security flaws",
+      "D": "Enhancing user interface design"
+    },
+    "correct": "C",
+    "explanation": "Code reviews are critical for identifying flaws in logic, security, and compliance with secure coding practices."
+  },
+  {
+    "question": "(8) What type of testing is performed without prior knowledge of the internal workings of the system?",
+    "options": {
+      "A": "White-box testing",
+      "B": "Gray-box testing",
+      "C": "Black-box testing",
+      "D": "Unit testing"
+    },
+    "correct": "C",
+    "explanation": "Black-box testing involves testing without any internal knowledge, simulating an external attacker’s perspective."
+  },
+  {
+    "question": "(9) Which process verifies that security controls continue to perform as expected over time?",
+    "options": {
+      "A": "Security modeling",
+      "B": "Regression testing",
+      "C": "Continuous monitoring",
+      "D": "Security auditing"
+    },
+    "correct": "C",
+    "explanation": "Continuous monitoring ensures ongoing assessment of system security posture and control effectiveness."
+  },
+  {
+    "question": "(10) What is the most effective way to ensure the integrity of log files during a security assessment?",
+    "options": {
+      "A": "Encrypt the log files",
+      "B": "Restrict file permissions",
+      "C": "Use hashing mechanisms",
+      "D": "Store logs in plaintext"
+    },
+    "correct": "C",
+    "explanation": "Hashing log files ensures their integrity by making any tampering easily detectable."
+  },
+  {
+    "question": "(11) What is the purpose of a bug bounty program?",
+    "options": {
+      "A": "To distribute new patches",
+      "B": "To pay hackers to exploit vulnerabilities",
+      "C": "To incentivize researchers to report vulnerabilities",
+      "D": "To detect malware signatures"
+    },
+    "correct": "C",
+    "explanation": "Bug bounty programs reward researchers for responsibly disclosing security flaws, improving system resilience."
+  },
+  {
+    "question": "(12) During a security control assessment, which of the following is most important to document?",
+    "options": {
+      "A": "The date of last patch update",
+      "B": "The names of administrators",
+      "C": "Control implementation effectiveness",
+      "D": "Marketing reports"
+    },
+    "correct": "C",
+    "explanation": "The assessment should focus on whether controls are implemented and operating as intended."
+  },
+  {
+    "question": "(13) Why is baselining important in system testing?",
+    "options": {
+      "A": "It eliminates the need for logging",
+      "B": "It allows performance tracking over time",
+      "C": "It disables unnecessary ports",
+      "D": "It secures physical access"
+    },
+    "correct": "B",
+    "explanation": "Baselines establish a performance and security benchmark, enabling comparison and anomaly detection."
+  },
+  {
+    "question": "(14) Which tool is typically used for automated web application testing?",
+    "options": {
+      "A": "Wireshark",
+      "B": "Burp Suite",
+      "C": "Metasploit",
+      "D": "Nmap"
+    },
+    "correct": "B",
+    "explanation": "Burp Suite is widely used for discovering and exploiting web application vulnerabilities."
+  },
+  {
+    "question": "(15) What is the purpose of a security test plan?",
+    "options": {
+      "A": "To document firewall configurations",
+      "B": "To outline test objectives, scope, and methodologies",
+      "C": "To create data encryption keys",
+      "D": "To track vendor performance"
+    },
+    "correct": "B",
+    "explanation": "A security test plan ensures testing is systematic and meets defined objectives and scope."
+  },
+  {
+    "question": "(16) Which of the following is most effective for discovering security misconfigurations in production?",
+    "options": {
+      "A": "Access control review",
+      "B": "Security information and event management (SIEM)",
+      "C": "Automated configuration scanning",
+      "D": "Change control records"
+    },
+    "correct": "C",
+    "explanation": "Automated tools can quickly scan systems for configuration drift and known misconfigurations."
+  },
+  {
+    "question": "(17) What is the role of a blue team?",
+    "options": {
+      "A": "Conducting security policy reviews",
+      "B": "Monitoring and defending systems from attacks",
+      "C": "Performing system upgrades",
+      "D": "Writing security reports"
+    },
+    "correct": "B",
+    "explanation": "Blue teams are responsible for detection, defense, and response during simulated or real attacks."
+  },
+  {
+    "question": "(18) What is an advantage of synthetic transactions in application monitoring?",
+    "options": {
+      "A": "They reduce the need for firewalls",
+      "B": "They ensure encryption is bypassed",
+      "C": "They simulate user activity for testing",
+      "D": "They detect insider threats"
+    },
+    "correct": "C",
+    "explanation": "Synthetic transactions help test application performance and functionality without needing actual users."
+  },
+  {
+    "question": "(19) Which phase of the SDLC includes verification that security controls are functioning as intended?",
+    "options": {
+      "A": "Design",
+      "B": "Implementation",
+      "C": "Testing",
+      "D": "Maintenance"
+    },
+    "correct": "C",
+    "explanation": "The testing phase verifies that all controls and functions meet defined requirements and operate correctly."
+  },
+  {
+    "question": "(20) Which testing method is most appropriate for validating the effectiveness of incident response processes?",
+    "options": {
+      "A": "Red teaming",
+      "B": "Tabletop exercise",
+      "C": "Black-box testing",
+      "D": "White-box testing"
+    },
+    "correct": "B",
+    "explanation": "Tabletop exercises allow teams to simulate incident scenarios and practice response actions in a low-risk environment."
+  }
+]
+
