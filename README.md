@@ -1,4 +1,5 @@
-# CISSP_EXAM
+# CISSP_EXAM Mock preprations with Study material (Ideal for starting preprations)
+"I plan to continuously enhance the question bank by adding more scenario-based and technically challenging questions over time."
 
 📘 CISSP Mock Exam Web Application
 This project is a CISSP (Certified Information Systems Security Professional) mock exam platform built with HTML, CSS, and JavaScript. It offers a realistic and interactive practice environment for cybersecurity professionals preparing for the CISSP certification.
